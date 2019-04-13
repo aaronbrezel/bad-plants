@@ -5,33 +5,10 @@
     <script type="text/javascript" src="{{ url_for('static', filename = 'search_plants.js') }}"></script>
    
     <style>
-        
-    .plantWidget {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px
-        
-    }
 
+    /*General page CSS */  
     #searchBar {
         width: 100%;
-    }
-    #sciName {
-        font-style: italic;
-        font-size: 1.5rem
-    }
-
-    #notes {
-        font-size: 0.75rem
-    }
-    img {
-        max-width: 100%;
-        max-height: 300px;
-    }
-    .hoverOnDraggable{
-        background-color: lightgray;
-        z-index: 1;
     }
 
     .page {
@@ -42,22 +19,78 @@
         min-height: 450px;
     }
 
+    .plantImage { /*CSS for all images on page*/
+        max-width:100%;
+        max-height:100%;
+    }
+
+    /* CSS for each plant widget */
+    .plantWidget {
+        /* padding-top: 10px;
+        padding-bottom: 10px; */
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 60px;
+    }
+  
+    
+    #sciName {
+        font-style: italic;
+        font-size: 0.75rem;
+        padding-bottom: 5px;
+    }
+
+    #notes {
+        font-size: 0.5rem
+    }
+
+    .widgetImage {
+        height: 60px;
+    }
+
+    .hoverOnDraggable{
+        background-color: lightgray;
+        z-index: 1;
+    }
+
+   
+    /*CSS for plant card */
     #plantCard {
         /*margin: 5px;*/
         position: -webkit-sticky; /* Safari */
         position: sticky;
         top: 0;
-        max-height: 400px;
+        max-height: 735px;
         background-color: yellowgreen;
 
     }
-
+   
 
     #plantCardDirections {
         color: grey;
         text-align: center;
         margin-top: 180px;
     }
+
+    .plantCard_photoRow {
+        padding-top: 10px;
+        max-height: 70%;
+    }
+    .plantCard_photoCol {
+        padding-top: 5px;
+        max-height: 70%;
+    }
+
+    .plantCard_sciName{
+        font-style: italic;
+        font-size: 1.3rem;
+    }
+
+    .plantCard_plantDescription {
+        font-size: 0.70rem;
+
+    }
+  
 
 
     
@@ -73,15 +106,15 @@
 {% block content %}
 <br>
 <div class="row page">
-    <div class= "col-2" id = "buildQuiz">
+    <div class= "col-3" id = "buildQuiz">
         placeholder
     </div>
-    <div class="col-6" id = "searchPlants">
+    <div class="col-4" id = "searchPlants">
         <input type="text" id="searchBar" placeholder='"Yew", "bean", "North America"'>
         <hr>
         <div class="row" id="searchResults"></div>
     </div>
-    <div class= "border border-secondary col-4" id = "plantCard">
+    <div class= "border border-secondary col-5" id = "plantCard">
         <div id="plantCardDirections">
             <span>Mouse over search results to read more about each plant</span>
         </div>
