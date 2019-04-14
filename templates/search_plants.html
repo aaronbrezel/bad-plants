@@ -36,7 +36,7 @@
     
     #sciName {
         font-style: italic;
-        font-size: 0.75rem;
+        font-size: 0.68rem;
         padding-bottom: 5px;
     }
 
@@ -45,6 +45,7 @@
     }
 
     .widgetImage {
+        padding-top: 5px;
         height: 60px;
     }
 
@@ -53,6 +54,12 @@
         z-index: 1;
     }
 
+    .checked {
+        background-color: lightgray
+    }
+    .unchecked {
+        background-color: white;
+    }
    
     /*CSS for plant card */
     #plantCard {
@@ -90,7 +97,46 @@
         font-size: 0.70rem;
 
     }
-  
+    /*CSS for quiz column*/
+    #buildQuiz {
+        /*margin: 5px;*/
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        height: 700px;
+        
+
+    }
+    #quizCol {
+        padding-top: 10px;
+    }
+    #quizHead {
+        font-size: 1.5rem;
+    }
+    #quizRepoRow {
+        background-color: yellowgreen;
+        height: 370px;
+        color: grey;
+    }
+    #quizRepoCol {
+        text-align: center;
+        overflow-y:scroll;
+        height: 369px;  
+    }
+    #quizRepoColDirections{
+       
+    }
+    #quizButtonRow {
+        margin-top: 5px;
+    }
+   
+    /*CSS for dragging divs*/
+    .draggingDiv{
+        height: 60px;
+        width: 200px;
+        background-color: red;
+        
+    }
 
 
     
@@ -107,7 +153,24 @@
 <br>
 <div class="row page">
     <div class= "col-3" id = "buildQuiz">
-        placeholder
+        <div class = "row" id="quizCol">
+            <div class= "col-8"><span id=quizHead>Quiz</span></div>
+            <div class= "col-3"><button id= "clearButton" class="btn btn-danger btn-sm">Clear</button></div>
+        </div>
+        <div class = "row border border-secondary" id="quizRepoRow">
+            <div class= "col" id="quizRepoCol">
+                <span id="quizRepoColDirectios">Drag plants here to build your quiz</span>
+            </div>
+        </div>
+        <div class= "row" id= "quizButtonRow">
+            <div class= "col-6" id="quizSettings">
+                <button type="button" class="btn btn-warning btn-sm btn-block">Settings</button>
+            </div>
+            <div class= "col-6" id="takeQuiz">
+                <button type="button" class="btn btn-success btn-sm btn-block">Take Quiz</button>
+            </div>
+        </div>
+
     </div>
     <div class="col-4" id = "searchPlants">
         <input type="text" id="searchBar" placeholder='"Yew", "bean", "North America"'>
