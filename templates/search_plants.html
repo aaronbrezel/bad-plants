@@ -3,7 +3,7 @@
 {% block head %}
     {{ super() }}
     <script type="text/javascript" src="{{ url_for('static', filename = 'search_plants.js') }}"></script>
-   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <style>
 
     /*General page CSS */  
@@ -21,7 +21,7 @@
 
     .plantImage { /*CSS for all images on page*/
         max-width:100%;
-        max-height:100%;
+        max-height: 100%;
     }
 
     /* CSS for each plant widget */
@@ -31,6 +31,7 @@
         margin-left: 10px;
         margin-right: 10px;
         height: 60px;
+        
     }
   
     
@@ -40,26 +41,64 @@
         padding-bottom: 5px;
     }
 
-    #notes {
+    .notes {
         font-size: 0.5rem
     }
 
     .widgetImage {
         padding-top: 5px;
+        padding-bottom: 5px;
         height: 60px;
     }
+    .unselectable {
+        -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+        -webkit-user-select: none;
+        -ms-user-select: none; /* From IE10 only */
+        user-select: none; /* Not valid CSS yet, as of July 2012 */
+        -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    }
+    
 
-    .hoverOnDraggable{
+    #plantList{
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+
+    .btn-circle {
+        width: 30px;
+        height: 30px;
+        padding: 6px 0px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.42857;
+        margin-top: 15px;
+    }
+
+    .xButton {
+        background-color: red;
+    }
+
+    
+
+    .hovered {
         background-color: lightgray;
-        z-index: 1;
     }
 
-    .checked {
-        background-color: lightgray
-    }
-    .unchecked {
+    .unHovered {
         background-color: white;
     }
+
+
+    .checked {
+        background-color: lightgray;
+    }
+    /* .unchecked {
+        background-color: white;
+    } */
    
     /*CSS for plant card */
     #plantCard {
@@ -117,26 +156,68 @@
         background-color: yellowgreen;
         height: 370px;
         color: grey;
+        z-index: 1;
     }
+
+    .quizRepoRowOnHover {
+        background-color: green;
+        color: white;
+    }
+
     #quizRepoCol {
         text-align: center;
         overflow-y:scroll;
         height: 369px;  
+        
     }
     #quizRepoColDirections{
-       
+     
     }
+
     #quizButtonRow {
         margin-top: 5px;
     }
    
-    /*CSS for dragging divs*/
-    .draggingDiv{
+    /* CSS for dragging divs
+    .dragDivImage{
+        width: 60px;
         height: 60px;
-        width: 200px;
-        background-color: red;
+    }
+
+    .dragDiv {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        opacity: 0.5;
+    }
+ */
+
+
+    /*CSS for quz divs*/
+    .quizDiv{
+        height: 60px;
+        width: 100%;
+        background-color: lightblue;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
         
     }
+
+    .quizDivSciName{
+        color: black;
+        vertical-align: middle;
+    }
+    .quizDivImage{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        max-height: 60px;
+    }
+
+    /* .inQuiz {
+        width: 100%;
+    } */
+
 
 
     
@@ -159,7 +240,7 @@
         </div>
         <div class = "row border border-secondary" id="quizRepoRow">
             <div class= "col" id="quizRepoCol">
-                <span id="quizRepoColDirectios">Drag plants here to build your quiz</span>
+                <span id="quizRepoColDirections">Drag plants here to build your quiz</span>
             </div>
         </div>
         <div class= "row" id= "quizButtonRow">
@@ -175,7 +256,11 @@
     <div class="col-4" id = "searchPlants">
         <input type="text" id="searchBar" placeholder='"Yew", "bean", "North America"'>
         <hr>
-        <div class="row" id="searchResults"></div>
+        <div class="row" id="searchResults">
+            <div class="col" id="plantList">
+                
+            </div>
+        </div>
     </div>
     <div class= "border border-secondary col-5" id = "plantCard">
         <div id="plantCardDirections">

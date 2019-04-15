@@ -2,10 +2,19 @@ var plantCard
 var plantCardDirections
 var addToQuiz = [] //what the user is going to add. Basically, which boxes are checked
 
-var inTheQuiz = [] //What the user has already added to the quiz
+var inTheQuiz = []
+
 
 $(document).ready(function () {
-   
+    for(i=0; i < plants.length; i++){ //This adds an extra key to each plant object which will indicate whether they have been selected for the quiz
+        plants[i].selected = false;
+    }
+
+    plantCard = $('#plantCard');//binds plant card element to a variable
+    plantCardDirections = $('#plantCardDirections'); //binds plant card directions to a variable
+
+    dumpList(plants) //build the initial list of plants
+
     $('#searchBar').keyup(function(){
         $('#plantList').empty()
         var searchText = $('#searchBar').val()
@@ -17,40 +26,8 @@ $(document).ready(function () {
         matchPlants(searchText)
     })
 
-    plantCard = $('#plantCard');
-    plantCardDirections = $('#plantCardDirections');
 
-    dumpList(plants) //set initial list
-
-    $('body').mouseup( function() {
-        $('#quizRepoRow').css("background-color", "yellowgreen");
-        $('#quizRepoRow').css("color", "grey");
-
-    })
-
-    $('body').mousedown(function(evt){    //architecture to de-select plant widgets on clicks outside the plant list
-        if($(evt.target).closest('#searchBar').length){
-            return;
-        }
-        if($(evt.target).closest('#clearButton').length){
-            return;
-        }
-        if($(evt.target).closest('#plantList').length){
-            return;
-        }
-        // $('.plantWidget').each(function(){
-        //     checkTheWidget($(this),"uncheck");
-        // });
-        $('.plantCheckbox').prop("checked", false);
-        $('.plantWidget').removeClass("checked")
-        $('.plantWidget').addClass("unchecked")
-        addToQuiz = []                 
-    });
-    
-    
 });
-
-
 
 function matchPlants(searchText){
     for (i = 0; i < plants.length; i++){
@@ -62,64 +39,42 @@ function matchPlants(searchText){
             buildList(currentPlant)
         }
     }
-    $.each(addToQuiz, function(i, val){
-        var checkBoxCol = val.children()[0]
-        var checkBox = $(checkBoxCol.childNodes[0])
-        console.log(checkBox.val())
-        // checkBox.checked = true;
-        
-        $("input[value='" + checkBox.val() + "']").prop('checked', true);
-        $("input[value='" + checkBox.val() + "']").parent().parent().addClass("checked")
-     });    
-
 }
 
+
 function dumpList(plants){
-    var plantList = $("<div></div>");
-    plantList.addClass("row");
-    var plantListCol = $("<div></div>");
-    plantListCol.addClass("col");
-    plantListCol.attr("id","plantList")
-    plantList.append(plantListCol);
-    $('#searchResults').append(plantList)
     for (i = 0; i < plants.length; i++){
         //console.log(plants[i])
         buildList(plants[i])
-    }
-   
+    } 
 }
 
 
-
 function buildList(currentPlant){
-    //console.log(currentPlant["Photo"])
-    var plantWidget = $("<div></div>");
+    
+    
+    var plantWidget = $("<div></div>"); //Create a widget for each plant to add
     plantWidget.addClass("row plantWidget");
-    
-    plantWidget.attr("id", currentPlant["plant id"])
-    
-    var plantCheckboxCol = $("<div></div>"); //add checkbox to select plant
-    plantCheckboxCol.addClass("col-1 plantCheckboxCol");
-    
-    
-    var checkBox = $("<input class= 'plantCheckbox' type='checkbox' name='plant' value='" + currentPlant["plant id"] + "'></input>")
-    checkBox.change(function(){
+    plantWidget.attr("id", currentPlant["plant id"]) //give that widget the same ID as the plant that it is attached to
 
-        if($(this).is(':checked')){
-            checkTheWidget(plantWidget, "check")
-        }
-        else{
-            checkTheWidget(plantWidget, "uncheck")
-        }    
-    
-    });
-    $(checkBox).appendTo(plantCheckboxCol)
-    // plantCheckboxCol.append('<input class= "plantCheckbox" type="checkbox" name="plant" value="' + currentPlant["plant id"] + '"></input>')
-    plantWidget.append(plantCheckboxCol);
+    var plantAdditionCol = $("<div></div>");
+    plantAdditionCol.addClass("col-2 plantAdditionCol");
+    plantWidget.append(plantAdditionCol)
+
+
+    var additionButton //button for each widget
+    if(currentPlant.selected == false){
+        additionButton = $('<button type="button" class="btn btn-info btn-circle"><i class="fa fa-plus-circle fa-lg" aria-hidden="true"></i></button>')
+    }
+    else if (currentPlant.selected == true){
+        additionButton = $('<button type="button" class="btn btn-info btn-circle xButton"><i class="fa fa-times fa-lg" aria-hidden="true"></i></button>')
+    }
+    plantAdditionCol.append(additionButton)
 
     var plantImageCol = $("<div></div>"); //Add plant image
     plantImageCol.addClass("col-4 widgetImage");
     plantImageCol.append('<img class="plantImage" src=' +currentPlant["Photo"] + ' alt="image not available" >' )
+    makeUnselectable($('.plantImage'))
     plantWidget.append(plantImageCol);
 
     var plantInfoCol = $("<div></div>"); //Add plant info
@@ -135,121 +90,55 @@ function buildList(currentPlant){
     plantInfoRowDescription.addClass("row");
     plantInfoCol.append(plantInfoRowDescription);
 
-    plantName = $("<div></div>");
+    plantName = $("<div></div>"); //add scientific plant name
     plantName.addClass("col");
     plantName.append(currentPlant["Scientific name"]);
     plantInfoRowName.append(plantName)
 
-    var description = currentPlant["Notes"]
+    var description = currentPlant["Notes"] //section to truncate the description for the widget
     trunk_description = getWords(description)
     if (trunk_description.split(" ").length != description.split(" ").length){
         var ellipses = " ..."
         trunk_description = trunk_description.concat(ellipses)
     }
-    
-    
 
-    plantDescription = $("<div></div>");
-    plantDescription.addClass("col");
-    plantDescription.attr('id', 'notes')
+    plantDescription = $("<div></div>"); //Add truncated description to the widget
+    plantDescription.addClass("col notes");
     plantDescription.append(trunk_description);
     plantInfoRowDescription.append(plantDescription)
 
         
  
       
-    $('#plantList').append(plantWidget)
+    $('#plantList').append(plantWidget) //add widget to the page
     $('#plantList').append($("<hr>"))
 
-    add_hover_js(plantWidget,currentPlant)
-   
-    //console.log("Match on " + currentPlant["Scientific name"])
-}
 
+    add_hover_js(plantWidget,currentPlant) //add hover functionality
 
-function getWords(str) {
-    return str.split(/\s+/).slice(0,10).join(" ");
 }
 
 function add_hover_js(plantWidget,currentPlant){
-    var tempCheck = false;
-    var checkBox = plantWidget.children()[0].childNodes[0]
-
     plantWidget.hover( 
         function (){
-            $(this).removeClass("unchecked");
-            $(this).addClass("checked");
+            $(this).removeClass("unHovered");
+            $(this).addClass("hovered");
             plantCard.empty();
 
             buildPlantCard(currentPlant)
 
-            
-            
-
         },
         function (){
-            if (plantWidget.children()[0].childNodes[0].checked){
-                //do nothing if checkbock is checked
-            }
-            else{ //remove checked class
-                $(this).removeClass("checked");
-                $(this).addClass("unchecked");
-            }    
+            
+            $(this).removeClass("hovered");
+            $(this).addClass("unHovered");
             
             
             plantCard.empty();
             plantCard.append(plantCardDirections)
         } 
     );
-    plantWidget.mousedown( function () {
-        //generate the dragging cards for all checked plants 
-          
-        
-        $('#quizRepoRow').css("background-color", "green");
-        $('#quizRepoRow').css("color", "white");
-
-        if(!checkBox.checked){
-            checkBox.checked = true; //temporarily check the box
-            checkTheWidget(plantWidget, "check") //add the widget to add to quiz array
-            tempCheck = true; //indicate that this is a temporary assignment
-            
-        }
-
-        if (addToQuiz.length == 1){
-            //only drag single card
-            console.log("single card")
-            var dragDiv = $("<div></div");
-            dragDiv.addClass("draggingDiv");
-            $('#quizRepoCol').append(dragDiv)
-            dragDiv.draggable({
-                revert: "invalid"
-            });
-        }
-        else{
-            console.log("multiple cards")
-            for(i = 0; i < addToQuiz.length; i++){
-                temp_div = $("<div></div")
-            }
-        }
-        
-    });
-    plantWidget.mouseup( function () {
-        
-        $('#quizRepoRow').css("background-color", "yellowgreen");
-        $('#quizRepoRow').css("color", "grey");
-        
-        if(checkBox.checked && tempCheck){ //if the box is checked and it was a temporary assignment 
-            checkBox.checked = false; //uncheck the box
-            checkTheWidget(plantWidget, "uncheck") //remove the widget from the quiz array
-            tempCheck = false;
-         
-        }
-
-        
-    });
-
 }
-
 
 function buildPlantCard(currentPlant) {
     var plantCard_photoRow = $("<div></div>");
@@ -290,21 +179,22 @@ function buildPlantCard(currentPlant) {
 
 }
 
-function checkTheWidget(plantWidget, checkOrUncheck){
-    var checkBox = plantWidget.children()[0].childNodes[0]
-  
 
-    if(checkOrUncheck == "check"){
-        addToQuiz.push(plantWidget)
-        plantWidget.removeClass("unchecked")
-        plantWidget.addClass("checked")
-    }
-    else if(checkOrUncheck == "uncheck"){
-        for(i = 0; i < addToQuiz.length; i++){
-            if (addToQuiz[i].attr("id") == checkBox.value){
-                addToQuiz.splice(i,1)
-            }
-        }
-    }
-    console.log(addToQuiz)
+
+
+function getWords(str) {
+    return str.split(/\s+/).slice(0,10).join(" ");
+}
+
+function makeUnselectable (image){ // Courtesy of https://stackoverflow.com/questions/12906789/preventing-an-image-from-being-draggable-or-selectable-without-using-js
+    image
+        .addClass( 'unselectable' ) // All these attributes are inheritable
+        .attr( 'unselectable', 'on' ) // For IE9 - This property is not inherited, needs to be placed onto everything
+        .attr( 'draggable', 'false' ) // For moz and webkit, although Firefox 16 ignores this when -moz-user-select: none; is set, it's like these properties are mutually exclusive, seems to be a bug.
+        .on( 'dragstart', function() { return false; } );  // Needed since Firefox 16 seems to ingore the 'draggable' attribute we just applied above when '-moz-user-select: none' is applied to the CSS 
+
+    image // Apply non-inheritable properties to the child elements
+        .find( '*' )
+        .attr( 'draggable', 'false' )
+        .attr( 'unselectable', 'on' ); 
 }
