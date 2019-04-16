@@ -2,7 +2,7 @@ var plantCard
 var plantCardDirections
 var addToQuiz = [] //what the user is going to add. Basically, which boxes are checked
 
-var inTheQuiz = []
+
 
 
 $(document).ready(function () {
@@ -15,6 +15,8 @@ $(document).ready(function () {
 
     dumpList(plants) //build the initial list of plants
 
+
+    //JS for dealing with searches
     $('#searchBar').keyup(function(){
         $('#plantList').empty()
         var searchText = $('#searchBar').val()
@@ -25,6 +27,26 @@ $(document).ready(function () {
         var searchText = $('#searchBar').val()
         matchPlants(searchText)
     })
+
+    $('#clearButton').click(function(){
+        $('#quizRepoCol').empty();
+        $('#quizRepoCol').append('<span id="quizRepoColDirections">Drag plants here to build your quiz</span>')
+        
+        addToQuiz = []
+        
+        for(i=0; i < plants.length; i++){
+            if(plants[i].selected == true){
+                plants[i].selected = false;          
+            }
+        }
+
+        $(".plantWidget").removeClass("checked");
+        $(".selection-btn").removeClass("btn-danger");
+        $(".icon").removeClass("fa-times");
+        $(".icon").addClass("fa-plus");
+
+    })
+
 
 
 });
@@ -64,10 +86,11 @@ function buildList(currentPlant){
 
     var additionButton //button for each widget
     if(currentPlant.selected == false){
-        additionButton = $('<button type="button" class="btn btn-info btn-circle"><i class="fa fa-plus-circle fa-lg" aria-hidden="true"></i></button>')
+        additionButton = $('<button type="button" class="selection-btn btn btn-info btn-circle"><i class="icon fa fa-plus fa-lg" aria-hidden="true"></i></button>')
     }
     else if (currentPlant.selected == true){
-        additionButton = $('<button type="button" class="btn btn-info btn-circle xButton"><i class="fa fa-times fa-lg" aria-hidden="true"></i></button>')
+        additionButton = $('<button type="button" class="selection-btn btn btn-danger btn-info btn-circle"><i class="icon fa fa-times fa-lg" aria-hidden="true"></i></button>')
+        plantWidget.addClass("checked");
     }
     plantAdditionCol.append(additionButton)
 
@@ -105,16 +128,63 @@ function buildList(currentPlant){
     plantDescription = $("<div></div>"); //Add truncated description to the widget
     plantDescription.addClass("col notes");
     plantDescription.append(trunk_description);
-    plantInfoRowDescription.append(plantDescription)
+    plantInfoRowDescription.append(plantDescription);
 
         
  
       
-    $('#plantList').append(plantWidget) //add widget to the page
-    $('#plantList').append($("<hr>"))
+    $('#plantList').append(plantWidget); //add widget to the page
+    $('#plantList').append($("<hr>"));
 
 
-    add_hover_js(plantWidget,currentPlant) //add hover functionality
+    add_hover_js(plantWidget,currentPlant); //add hover functionality
+    add_button_js(plantWidget, additionButton);
+}
+
+function add_button_js(plantWidget, additionButton){
+    additionButton.click(function(){
+        var thePlant
+        for(i=0; i < plants.length; i++){ //Connecting the widget with the right plant
+            if(parseInt(plantWidget.attr("id")) == plants[i]["plant id"]){
+                
+                thePlant = plants[i]
+            } 
+        }
+        var icon = $(additionButton.children()[0])
+        
+        if (thePlant.selected == false){
+            //add plant 
+            thePlant.selected = true;
+            addToQuiz.push(thePlant);
+            additionButton.addClass("btn-danger");
+            
+            icon.removeClass("fa-plus")
+            icon.addClass("fa-times")
+
+            plantWidget.addClass("checked")
+
+        }
+        else if (thePlant.selected == true){
+            thePlant.selected = false
+            additionButton.removeClass("btn-danger");
+            icon.removeClass("fa-times")
+            icon.addClass("fa-plus")
+
+            
+            plantWidget.removeClass("checked")
+
+            for(i = 0; i < addToQuiz.length; i++){
+                if (addToQuiz[i]["plant id"] == thePlant["plant id"]){
+                    addToQuiz.splice(i,1)
+                }
+            }
+
+            
+            
+        }
+        assembleQuizList(addToQuiz);
+        
+    })
 
 }
 
@@ -178,6 +248,34 @@ function buildPlantCard(currentPlant) {
 
 
 }
+
+function assembleQuizList(addToQuiz){
+    $('#quizRepoCol').empty();
+    for(i=0; i < addToQuiz.length; i++){
+        var quizDiv = $("<div></div");
+        quizDiv.addClass("row quizDiv")
+
+        var quizDiv_photo = $("<div></div");
+        quizDiv_photo.addClass("col-5")
+        quizDiv_photo.append('<img class="plantImage quizDivImage" src=' + addToQuiz[i]["Photo"] + ' alt="image not available" >')
+        quizDiv.append(quizDiv_photo)
+
+        var quizDiv_name = $("<div></div");
+        quizDiv_name.addClass("col-7 quizDivSciName");
+        quizDiv_name.append('<span class="quizDivSciName">' + addToQuiz[i]["Scientific name"] + '</span>' );
+        quizDiv.append(quizDiv_name)
+
+
+        $('#quizRepoCol').append(quizDiv)
+
+    }
+    if(addToQuiz.length == 0){
+        $('#quizRepoCol').append('<span id="quizRepoColDirections">Drag plants here to build your quiz</span>')
+    }
+
+
+}
+
 
 
 

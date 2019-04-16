@@ -2,8 +2,13 @@
 {% block title %}Search{% endblock %}
 {% block head %}
     {{ super() }}
+    
+    
     <script type="text/javascript" src="{{ url_for('static', filename = 'search_plants.js') }}"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    
+    
     <style>
 
     /*General page CSS */  
@@ -78,9 +83,7 @@
         margin-top: 15px;
     }
 
-    .xButton {
-        background-color: red;
-    }
+  
 
     
 
@@ -240,7 +243,7 @@
         </div>
         <div class = "row border border-secondary" id="quizRepoRow">
             <div class= "col" id="quizRepoCol">
-                <span id="quizRepoColDirections">Drag plants here to build your quiz</span>
+                <span id="quizRepoColDirections">Press the blue plus-sign to add plants to your quiz</span>
             </div>
         </div>
         <div class= "row" id= "quizButtonRow">
@@ -248,7 +251,9 @@
                 <button type="button" class="btn btn-warning btn-sm btn-block">Settings</button>
             </div>
             <div class= "col-6" id="takeQuiz">
-                <button type="button" class="btn btn-success btn-sm btn-block">Take Quiz</button>
+                <a data-fancybox data-src="#hidden-content" href="javascript:;">
+                    <button type="button" class="btn btn-success btn-sm btn-block">Take Quiz</button>
+                </a>
             </div>
         </div>
 
@@ -258,7 +263,7 @@
         <hr>
         <div class="row" id="searchResults">
             <div class="col" id="plantList">
-                
+
             </div>
         </div>
     </div>
@@ -270,5 +275,10 @@
     </div>
 </div>
 <hr>
+
+<div style="display: none;" id="hidden-content">
+	<h2>Hello</h2>
+	<p>You are awesome.</p>
+</div>
 
 {% endblock %}
