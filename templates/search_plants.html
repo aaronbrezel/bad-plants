@@ -83,25 +83,6 @@
         margin-top: 15px;
     }
 
-  
-
-    
-
-    .hovered {
-        background-color: lightgray;
-    }
-
-    .unHovered {
-        background-color: white;
-    }
-
-
-    .checked {
-        background-color: lightgray;
-    }
-    /* .unchecked {
-        background-color: white;
-    } */
    
     /*CSS for plant card */
     #plantCard {
@@ -112,6 +93,13 @@
         max-height: 735px;
         background-color: yellowgreen;
 
+    }
+
+    .hovered{
+        background-color: lightgrey;
+    }
+    .checked{
+        background-color: lightgrey;
     }
    
 
@@ -180,20 +168,6 @@
     #quizButtonRow {
         margin-top: 5px;
     }
-   
-    /* CSS for dragging divs
-    .dragDivImage{
-        width: 60px;
-        height: 60px;
-    }
-
-    .dragDiv {
-        width: 100px;
-        height: 100px;
-        background-color: lightblue;
-        opacity: 0.5;
-    }
- */
 
 
     /*CSS for quz divs*/
@@ -217,9 +191,80 @@
         max-height: 60px;
     }
 
+
+    /*CSS for quiz lightbox*/
+
+    #quizLink {
+        text-decoration: none; /*Remove hyperlink underline from button*/
+    }
+
+    #namesBox {
+        /* position: -webkit-sticky; /* Safari */
+        /*position: sticky;
+        top: 0;  */
+        border: 2px dashed;
+
+        max-height: 350px;
+
+    }
+
+    #fillerBox{
+        z-index: 0;
+       
+    }
+    #picturesBox{
+        z-index: 0;
+    }
+
+
+
+    .pictureRow{
+        margin-top: 5px;
+    }
+
+
+    .nameRow{
+        background-color: yellowgreen;
+        margin-top: 5px;
+        
+    }
+
+    .hoverOnDraggable{
+        filter: brightness(75%);
+        cursor:pointer;
+        z-index: 1;
+    }
+
+    .ui-draggable-dragging {
+        /* background-color: yellowgreen;
+        filter: brightness(75%);
+       */
+        z-index: 1; 
+        cursor: pointer;
+    } 
+
+    .darken {
+        filter: brightness(75%);
+    }
     /* .inQuiz {
         width: 100%;
     } */
+    .inputNameRow{
+        background-color: yellowgreen;
+        margin-top: 50%;
+    }
+
+    .returnNameHover{
+        background-color: lightgrey;
+    }
+
+    .quizResultsButtonRow{
+        margin-top: 10px;
+    }
+    .wrongAnswer {
+        background-color: red;
+        margin-top: 50%;
+    }
 
 
 
@@ -238,7 +283,7 @@
 <div class="row page">
     <div class= "col-3" id = "buildQuiz">
         <div class = "row" id="quizCol">
-            <div class= "col-8"><span id=quizHead>Quiz</span></div>
+            <div class= "col-8"><span id=quizHead>Build Quiz</span></div>
             <div class= "col-3"><button id= "clearButton" class="btn btn-danger btn-sm">Clear</button></div>
         </div>
         <div class = "row border border-secondary" id="quizRepoRow">
@@ -248,11 +293,11 @@
         </div>
         <div class= "row" id= "quizButtonRow">
             <div class= "col-6" id="quizSettings">
-                <button type="button" class="btn btn-warning btn-sm btn-block">Settings</button>
+                <button type="button" class="btn btn-warning btn-sm btn-block" id="settings">Settings</button>
             </div>
-            <div class= "col-6" id="takeQuiz">
-                <a data-fancybox data-src="#hidden-content" href="javascript:;">
-                    <button type="button" class="btn btn-success btn-sm btn-block">Take Quiz</button>
+            <div class= "col-6">
+                <a id="quizLink" data-fancybox data-src="#quiz" href="javascript:;">
+                    <button type="button" class="btn btn-success btn-sm btn-block" id="takeQuiz" disabled>Take Quiz</button>
                 </a>
             </div>
         </div>
@@ -276,9 +321,24 @@
 </div>
 <hr>
 
-<div style="display: none;" id="hidden-content">
-	<h2>Hello</h2>
-	<p>You are awesome.</p>
+<div style="display: none;" id="quiz">
+	<h2>Drag the scientific name to the appropriate photo. Good Luck.</h2>
+    <div class="row">
+        <div class="col-3" id="namesBox">
+            
+        </div>
+        <div class="col-1" id="fillerBox">
+
+        </div>
+        <div class="col-8" id="picturesBox">
+            
+        </div>
+    </div>
+    <div class="row quizResultsButtonRow">
+        <div class= "col">
+            <button type="button" class="btn btn-success btn-sm btn-block" id="viewQuizResults">View Results</button>
+        </div>
+    </div>
 </div>
 
 {% endblock %}
