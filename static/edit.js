@@ -15,9 +15,9 @@ $(document).ready(function () {
 
     });
 
-    $("#keepBuilding").click(function(){
+    $("#keepEditing").click(function(){
         $.fancybox.close()
-        uploadNewQuiz($('#quizNameInput').val(),"NO");
+        // uploadNewQuiz($('#quizNameInput').val(),"NO");
     })
 
     $("#viewQuizzes").click(function(){
@@ -215,38 +215,6 @@ function buildList(currentPlant){
     plantSciNameCol.append("<span class='sciName'>" + currentPlant["Scientific name"] +"</span>")
     plantWidget.append(plantSciNameCol)
 
-    // var plantInfoCol = $("<div></div>"); //Add plant info
-    // plantInfoCol.addClass("col-4");
-    // plantWidget.append(plantInfoCol);
-
-    // plantInfoRowName = $("<div></div>"); //add row to plant info for name
-    // plantInfoRowName.addClass("row");
-    // plantInfoRowName.attr("id","sciName")
-    // plantInfoCol.append(plantInfoRowName);
-
-    // plantInfoRowDescription = $("<div></div>"); //add row to plant info for description
-    // plantInfoRowDescription.addClass("row");
-    // plantInfoCol.append(plantInfoRowDescription);
-
-    // plantName = $("<div></div>"); //add scientific plant name
-    // plantName.addClass("col");
-    // plantName.append(currentPlant["Scientific name"]);
-    // plantInfoRowName.append(plantName)
-
-    // var description = currentPlant["Notes"] //section to truncate the description for the widget
-    // trunk_description = getWords(description)
-    // if (trunk_description.split(" ").length != description.split(" ").length){
-    //     var ellipses = " ..."
-    //     trunk_description = trunk_description.concat(ellipses)
-    // }
-
-    // plantDescription = $("<div></div>"); //Add truncated description to the widget
-    // plantDescription.addClass("col notes");
-    // plantDescription.append(trunk_description);
-    // plantInfoRowDescription.append(plantDescription);
-
-        
- 
       
     $('#plantList').append(plantWidget); //add widget to the page
     $('#plantList').append($("<hr>"));
@@ -326,45 +294,6 @@ function add_hover_js(plantWidget,currentPlant){
         } 
     );
 }
-
-// function buildPlantCard(currentPlant) {
-//     var plantCard_photoRow = $("<div></div>");
-//     plantCard_photoRow.addClass("row plantCard_photoRow");
-//     plantCard.append(plantCard_photoRow)
-
-//     var plantCard_photoCol = $("<div></div>");
-//     plantCard_photoCol.addClass("col plantCard_photoCol")
-//     plantCard_photoCol.append('<img class="plantImage" src=' +currentPlant["Photo"] + ' alt="image not available" >' )
-//     plantCard_photoRow.append(plantCard_photoCol)
-         
-
-//     var plantCard_infoRow = $("<div></div>");
-//     plantCard_infoRow.addClass("row plantCard_infoRow");
-//     plantCard.append(plantCard_infoRow)
-            
-//     var plantCard_infoCol = $("<div></div>");
-//     plantCard_infoCol.addClass("col plantCard_infoCol")
-
-//     var plantCard_infoCol_sciName = $("<div></div>");
-//     plantCard_infoCol_sciName.addClass("row");
-//     var plantCard_infoCol_sciName_col = $("<div></div>");
-//     plantCard_infoCol_sciName_col.addClass("col");
-//     plantCard_infoCol_sciName_col.append('<span class="plantCard_sciName">' + currentPlant["Scientific name"] + '</span>')
-//     plantCard_infoCol_sciName.append(plantCard_infoCol_sciName_col)
-//     plantCard_infoCol.append(plantCard_infoCol_sciName)
-
-//     var plantCard_infoCol_plantDescription = $("<div></div>");
-//     plantCard_infoCol_plantDescription.addClass("row");
-//     var plantCard_infoCol_plantDescription_col = $("<div></div>");
-//     plantCard_infoCol_plantDescription_col.addClass("col");
-//     plantCard_infoCol_plantDescription_col.append('<span class="plantCard_plantDescription">' + currentPlant["Notes"] + '</span>')
-//     plantCard_infoCol_plantDescription.append(plantCard_infoCol_plantDescription_col)
-//     plantCard_infoCol.append(plantCard_infoCol_plantDescription)
-           
-//     plantCard_infoRow.append(plantCard_infoCol)
-
-
-// }
 
 function assembleQuizList(addToQuiz){
     $('#quizRepoCol').empty();

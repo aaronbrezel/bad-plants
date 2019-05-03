@@ -1,0 +1,95 @@
+{% extends "index.html" %}
+{% block title %}Your quizzes{% endblock %}
+{% block head %}
+    {{ super() }}
+
+
+    <script type="text/javascript" src="{{ url_for('static', filename = 'learn.js') }}"></script>
+
+
+    <style>
+        .page{
+            padding-top: 10px;
+            background-color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        #quizTitleCol{
+            text-align: center;
+        }
+        #quizTitle {
+            font-size: 2rem;
+        }
+
+        #takeQuizCol{
+            /* Internet Explorer 10 */
+            display:-ms-flexbox;
+            -ms-flex-pack:center;
+            -ms-flex-align:center;
+
+            /* Firefox */
+            display:-moz-box;
+            -moz-box-pack:center;
+            -moz-box-align:center;
+
+            /* Safari, Opera, and Chrome */
+            display:-webkit-box;
+            -webkit-box-pack:center;
+            -webkit-box-align:center;
+
+            /* W3C */
+            display:box;
+            box-pack:center;
+            box-align:center;
+        }
+
+        .plantCard{
+            background-color: yellowgreen;
+            border: 2px;
+            margin: 5px;
+        }
+
+        .plantCardNameCol{
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        .plantCardImageCol{
+            align-content: center;
+        }
+
+        .plantImage{
+            max-width: 100%;
+            max-height: 180px;
+        }
+
+
+    </style>
+
+    <script>
+        var quiz = {{quiz|tojson}}
+    </script>
+
+
+
+
+{% endblock %}
+
+{% block content %}
+<br>
+<div class="row page">
+    <div class= "col">
+        <div class="row">
+            <div class="col-8" id="quizTitleCol">
+            </div> 
+            <div class="col-4" id="takeQuizCol">
+
+            </div>
+        </div> 
+        <hr>
+        <div class="row" id="plantCardBox">
+        </div> 
+    </div> 
+    </div>
+</div>
+
+{% endblock %}

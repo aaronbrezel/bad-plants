@@ -1,0 +1,267 @@
+ /*General page CSS */  
+    #searchBar {
+        width: 100%;
+    }
+
+    .page {
+        padding-top: 10px;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        min-height: 450px;
+    }
+
+    .plantImage { /*CSS for all images on page*/
+        max-width:100%;
+        max-height: 100%;
+    }
+
+    /* CSS for each plant widget */
+    .plantWidget {
+        /* padding-top: 10px;
+        padding-bottom: 10px; */
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 80px;
+        
+    }
+
+    .noPointer {
+        cursor: default;
+    }
+    
+    .commonName{
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+    
+    .sciName {
+        font-style: italic;
+        font-size: 1.5rem;
+        padding-bottom: 5px;
+    }
+
+    .notes {
+        font-size: 0.5rem
+    }
+
+    .widgetImage {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        height: 80px;
+    }
+    .unselectable {
+        -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+        -webkit-user-select: none;
+        -ms-user-select: none; /* From IE10 only */
+        user-select: none; /* Not valid CSS yet, as of July 2012 */
+        -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    }
+    
+
+    #plantList{
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+
+    .btn-circle {
+        width: 60px;
+        height: 60px;
+        padding: 6px 0px;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.42857;
+        margin-top: 10px;
+    }
+
+   
+    /*CSS for plant card */
+    #plantCard {
+        /*margin: 5px;*/
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        max-height: 735px;
+        background-color: yellowgreen;
+
+    }
+
+    .hovered{
+        background-color: lightgrey;
+    }
+    .checked{
+        background-color: lightgrey;
+    }
+   
+
+    #plantCardDirections {
+        color: grey;
+        text-align: center;
+        margin-top: 180px;
+    }
+
+    .plantCard_photoRow {
+        padding-top: 10px;
+        max-height: 70%;
+    }
+    .plantCard_photoCol {
+        padding-top: 5px;
+        max-height: 70%;
+    }
+
+    .plantCard_sciName{
+        font-style: italic;
+        font-size: 1.3rem;
+    }
+
+    .plantCard_plantDescription {
+        font-size: 0.70rem;
+
+    }
+    /*CSS for quiz column*/
+    #buildQuiz {
+        /*margin: 5px;*/
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        height: 700px;
+        
+
+    }
+    #quizCol {
+        /* padding-top: 10px; */
+    }
+    #quizHead {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    #quizRepoRow {
+        background-color: yellowgreen;
+        height: 370px;
+        color: grey;
+        z-index: 1;
+    }
+
+    .quizRepoRowOnHover {
+        background-color: green;
+        color: white;
+    }
+
+    #quizRepoCol {
+        text-align: center;
+        overflow-y:scroll;
+        height: 369px; 
+        vertical-align: -webkit-baseline-middle; 
+        
+    }
+    #quizRepoDirections{   
+    }
+
+    #quizButtonRow {
+        margin-top: 5px;
+    }
+
+
+
+    /*CSS for quz divs*/
+    .quizDiv{
+        height: 60px;
+        width: 100%;
+        background-color: lightblue;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        
+    }
+
+    .quizDivSciName{
+        color: black;
+        vertical-align: middle;
+    }
+    .quizDivImage{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        max-height: 60px;
+    }
+
+
+    /*CSS for new lightbox with just nameing and stuff*/
+
+    #saving {
+        text-align: center;
+    }
+
+    .inputFieldRow{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #preFabQuizLink{
+        text-decoration: none; /*Remove hyperlink underline from button*/
+    }
+    
+
+
+
+
+    /*CSS for quiz lightbox*/
+
+    #quizLink {
+        text-decoration: none; /*Remove hyperlink underline from button*/
+    }
+
+ 
+
+    #fillerBox{
+        z-index: 0;
+       
+    }
+    #picturesBox{
+        z-index: 0;
+    }
+
+
+
+    .pictureRow{
+        margin-top: 5px;
+    }
+
+
+    .nameRow{
+        background-color: yellowgreen;
+        margin-top: 5px;
+        
+    }
+
+    
+    .ui-draggable-dragging {
+        /* background-color: yellowgreen;
+        filter: brightness(75%);
+       */
+        z-index: 1; 
+        cursor: pointer;
+    } 
+
+    
+    /* .inQuiz {
+        width: 100%;
+    } */
+    
+
+   
+
+    .quizResultsButtonRow{
+        margin-top: 10px;
+    }
+    .wrongAnswer {
+        background-color: red;
+        margin-top: 50%;
+    }
+
+
+
+    
+    

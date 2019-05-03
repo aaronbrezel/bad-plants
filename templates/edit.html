@@ -1,17 +1,18 @@
 {% extends "index.html" %}
-{% block title %}Search{% endblock %}
+{% block title %}Edit{% endblock %}
 {% block head %}
     {{ super() }}
     
     
-    <script type="text/javascript" src="{{ url_for('static', filename = 'search_plants.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename = 'edit.js') }}"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     
     
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='search_plants.css') }}">
 
 <script>
-    var plants = {{plants|tojson}}        
+    var plants = {{plants|tojson}}  
+    var quiz = {{quiz|tojson}}      
 </script>
 
 {% endblock %}
@@ -75,7 +76,7 @@
     </div>
     <div class="row">
         <div class="col-4">
-            <button type="button" class="btn btn-secondary btn-sm btn-block lightBoxButtons" id="keepBuilding" disabled>Keep building!</button>
+            <button type="button" class="btn btn-secondary btn-sm btn-block lightBoxButtons" id="keepEditing" disabled>Keep editing!</button>
         </div>
         <div class="col-4">
                 <button type="button" class="btn btn-warning btn-sm btn-block lightBoxButtons" id="viewQuizzes" disabled>View my quizzes!</button>

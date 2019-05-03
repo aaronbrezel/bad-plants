@@ -1,0 +1,344 @@
+{% extends "index.html" %}
+{% block title %}Search{% endblock %}
+{% block head %}
+    {{ super() }}
+    
+    
+    <script type="text/javascript" src="{{ url_for('static', filename = 'search_plants.js') }}"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    
+    
+    <style>
+
+    /*General page CSS */  
+    #searchBar {
+        width: 100%;
+    }
+
+    .page {
+        padding-top: 10px;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        min-height: 450px;
+    }
+
+    .plantImage { /*CSS for all images on page*/
+        max-width:100%;
+        max-height: 100%;
+    }
+
+    /* CSS for each plant widget */
+    .plantWidget {
+        /* padding-top: 10px;
+        padding-bottom: 10px; */
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 60px;
+        
+    }
+  
+    
+    #sciName {
+        font-style: italic;
+        font-size: 0.68rem;
+        padding-bottom: 5px;
+    }
+
+    .notes {
+        font-size: 0.5rem
+    }
+
+    .widgetImage {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        height: 60px;
+    }
+    .unselectable {
+        -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+        -webkit-user-select: none;
+        -ms-user-select: none; /* From IE10 only */
+        user-select: none; /* Not valid CSS yet, as of July 2012 */
+        -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    }
+    
+
+    #plantList{
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+
+    .btn-circle {
+        width: 30px;
+        height: 30px;
+        padding: 6px 0px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.42857;
+        margin-top: 15px;
+    }
+
+   
+    /*CSS for plant card */
+    #plantCard {
+        /*margin: 5px;*/
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        max-height: 735px;
+        background-color: yellowgreen;
+
+    }
+
+    .hovered{
+        background-color: lightgrey;
+    }
+    .checked{
+        background-color: lightgrey;
+    }
+   
+
+    #plantCardDirections {
+        color: grey;
+        text-align: center;
+        margin-top: 180px;
+    }
+
+    .plantCard_photoRow {
+        padding-top: 10px;
+        max-height: 70%;
+    }
+    .plantCard_photoCol {
+        padding-top: 5px;
+        max-height: 70%;
+    }
+
+    .plantCard_sciName{
+        font-style: italic;
+        font-size: 1.3rem;
+    }
+
+    .plantCard_plantDescription {
+        font-size: 0.70rem;
+
+    }
+    /*CSS for quiz column*/
+    #buildQuiz {
+        /*margin: 5px;*/
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        height: 700px;
+        
+
+    }
+    #quizCol {
+        padding-top: 10px;
+    }
+    #quizHead {
+        font-size: 1.5rem;
+    }
+    #quizRepoRow {
+        background-color: yellowgreen;
+        height: 370px;
+        color: grey;
+        z-index: 1;
+    }
+
+    .quizRepoRowOnHover {
+        background-color: green;
+        color: white;
+    }
+
+    #quizRepoCol {
+        text-align: center;
+        overflow-y:scroll;
+        height: 369px;  
+        
+    }
+    #quizRepoColDirections{
+     
+    }
+
+    #quizButtonRow {
+        margin-top: 5px;
+    }
+
+
+    /*CSS for quz divs*/
+    .quizDiv{
+        height: 60px;
+        width: 100%;
+        background-color: lightblue;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        text-align: center;
+        
+    }
+
+    .quizDivSciName{
+        color: black;
+        vertical-align: middle;
+    }
+    .quizDivImage{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        max-height: 60px;
+    }
+
+
+    /*CSS for quiz lightbox*/
+
+    #quizLink {
+        text-decoration: none; /*Remove hyperlink underline from button*/
+    }
+
+    #namesBox {
+        /* position: -webkit-sticky; /* Safari */
+        /*position: sticky;
+        top: 0;  */
+        border: 2px dashed;
+
+        max-height: 350px;
+
+    }
+
+    #fillerBox{
+        z-index: 0;
+       
+    }
+    #picturesBox{
+        z-index: 0;
+    }
+
+
+
+    .pictureRow{
+        margin-top: 5px;
+    }
+
+
+    .nameRow{
+        background-color: yellowgreen;
+        margin-top: 5px;
+        
+    }
+
+    .hoverOnDraggable{
+        filter: brightness(75%);
+        cursor:pointer;
+        z-index: 1;
+    }
+
+    .ui-draggable-dragging {
+        /* background-color: yellowgreen;
+        filter: brightness(75%);
+       */
+        z-index: 1; 
+        cursor: pointer;
+    } 
+
+    .darken {
+        filter: brightness(75%);
+    }
+    /* .inQuiz {
+        width: 100%;
+    } */
+    .inputNameRow{
+        background-color: yellowgreen;
+        margin-top: 50%;
+    }
+
+    .returnNameHover{
+        background-color: lightgrey;
+    }
+
+    .quizResultsButtonRow{
+        margin-top: 10px;
+    }
+    .wrongAnswer {
+        background-color: red;
+        margin-top: 50%;
+    }
+
+
+
+    
+    
+    </style>
+
+<script>
+        var plants = {{plants|tojson}}
+</script>
+
+{% endblock %}
+
+{% block content %}
+<br>
+<div class="row page">
+    <div class= "col-3" id = "buildQuiz">
+        <div class = "row" id="quizCol">
+            <div class= "col-8"><span id=quizHead>Build Quiz</span></div>
+            <div class= "col-3"><button id= "clearButton" class="btn btn-danger btn-sm">Clear</button></div>
+        </div>
+        <div class = "row border border-secondary" id="quizRepoRow">
+            <div class= "col" id="quizRepoCol">
+                <span id="quizRepoColDirections">Press the blue plus-sign to add plants to your quiz</span>
+            </div>
+        </div>
+        <div class= "row" id= "quizButtonRow">
+            <div class= "col-6" id="quizSettings">
+                <button type="button" class="btn btn-warning btn-sm btn-block" id="settings">Settings</button>
+            </div>
+            <div class= "col-6">
+                <a id="quizLink" data-fancybox data-src="#quiz" href="javascript:;">
+                    <button type="button" class="btn btn-success btn-sm btn-block" id="takeQuiz" disabled>Take Quiz</button>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <div class="col-4" id = "searchPlants">
+        <input type="text" id="searchBar" placeholder='"Yew", "bean", "North America"'>
+        <hr>
+        <div class="row" id="searchResults">
+            <div class="col" id="plantList">
+
+            </div>
+        </div>
+    </div>
+    <div class= "border border-secondary col-5" id = "plantCard">
+        <div id="plantCardDirections">
+            <span>Mouse over search results to read more about each plant</span>
+        </div>
+       
+    </div>
+</div>
+<hr>
+
+<div style="display: none;" id="quiz">
+	<h2>Drag the scientific name to the appropriate photo. Good Luck.</h2>
+    <div class="row">
+        <div class="col-3" id="namesBox">
+            
+        </div>
+        <div class="col-1" id="fillerBox">
+
+        </div>
+        <div class="col-8" id="picturesBox">
+            
+        </div>
+    </div>
+    <div class="row quizResultsButtonRow">
+        <div class= "col">
+            <button type="button" class="btn btn-success btn-sm btn-block" id="viewQuizResults">View Results</button>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

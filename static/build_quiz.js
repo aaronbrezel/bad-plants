@@ -1,86 +1,71 @@
-<h2>Drag the scientific name to the appropriate photo. Good Luck.</h2>
-    <div class="row">
-        <div class="col-3" id="namesBox">
-            
-        </div>
-        <div class="col-1" id="fillerBox">
+var quizName
+var answersBox
+var picturesBox
 
-        </div>
-        <div class="col-8" id="picturesBox">
-            
-        </div>
-    </div>
-    <div class="row quizResultsButtonRow">
-        <div class= "col">
-            <button type="button" class="btn btn-success btn-sm btn-block" id="viewQuizResults">View Results</button>
-        </div>
-    </div>
+$(document).ready(function () {
+    
+    quizName = quiz.quiz_name
+    
+    $('#quizNameCol').append('<span id="quizName">' + quizName + '</span>')
+    
+    answersBox = $("#namesBox")
+    picturesBox = $("#picturesBox")
 
+    buildTheQuiz()
+
+    
+    $('#viewQuizResults').click(function(){
+        generateResults();
+    })
+
+
+});
 
 
 function buildTheQuiz(){
-    
-    var namesBox = $('#namesBox');
-    var picturesBox = $('#picturesBox');
-
-    namesBox.empty();
-    picturesBox.empty();
-
-    scrambled = shuffle(addToQuiz);
-    
-
-    for(i=0; i < addToQuiz.length; i++){
-        
-        
-
+    var answers = shuffle(quiz.quiz_plants)
+    var plants = quiz.quiz_plants
+    for(i=0; i < plants.length; i++){
+        var answer = answers[i]["Scientific name"]
+        console.log(answer)
+        var plant = plants[i]
         var pictureRow = $("<div class='row pictureRow'></div>");
         picturesBox.append(pictureRow);
 
         var pictureNameCol = $("<div class='col-4 pictureNameCol'></div>");
         pictureRow.append(pictureNameCol)
 
-        var pictureCol = $("<div class='col-8 pictureCol'></div>");
-        pictureCol.append('<img class="plantImage quizImage notTaken" src=' +addToQuiz[i]["Photo"] + ' alt="image not available" >');
-        pictureCol.attr("id", addToQuiz[i]["Scientific name"])
+        var pictureCol = $("<div class='col-8 pictureCol flip-card'></div>");
+        //section for picture and description
+        var flipCardInner = $('<div class="flip-card-inner"></div>')
+        var picture = $('<img class="plantImage quizImage notTaken flip-card-front" src=' + plant["Photo"] + ' alt="image not available" >')
+        //var picture = $('<img class="plantImage quizImage notTaken flip-card-front" src=' + plant["Photo"] + ' alt="image not available" >')
+        var description = $('<span class="flip-card-back">HELLO</span>')
+        flipCardInner.append(picture)
+        flipCardInner.append(description)
+        
+        // pictureCol.append(flipCardInner);
+        pictureCol.append(picture)
+        pictureCol.attr("id", plant["Scientific name"])
         pictureRow.append(pictureCol);
 
-
         var nameRow = $("<div class='row nameRow'></div>");
-        nameRow.attr('id', scrambled[i]["Scientific name"])
-        namesBox.append(nameRow);
+        nameRow.attr('id', answer)
+        answersBox.append(nameRow);
 
         var nameCol = $("<div class='col nameCol'></div>");
-        var name = $('<span class="quizSciName">' + scrambled[i]["Scientific name"] + '</span>')
+        var name = $('<span class="quizSciName">' + answer + '</span>')
         nameCol.append(name)
         nameRow.append(nameCol);
-        addQuizHover_js(nameRow);
         
-    }
-    
-    
-}
+        addQuizHover_js(nameRow)
 
-
-function shuffle(addToQuiz) {
-    var j, x, i;
-    var a = addToQuiz.slice();
-    
-    for (i = a.length - 1; i > 0; i--) {
-        j = Math.floor(Math.random() * (i + 1));
-        x = a[i];
-        a[i] = a[j];
-        a[j] = x;
     }
-    return a;
 }
 
 function addQuizHover_js(nameRow){
     nameRow.draggable( {
-        revert: "invalid",
-        //stack: ".nameRow",
-        // drag: function(event, ui){
-        //     $(this).addClass("hoverOnDraggable");
-        // }
+        revert: "invalid"
     });
 
     nameRow.hover( 
@@ -116,30 +101,6 @@ function nameClicked(sciName){
 
     });
 }
-function inputClicked(inputRow){
-    var pictureCol = $(inputRow.parent().parent().children()[1]) 
-    var picture = $(pictureCol.children()[0])
-    
-    $('#namesBox').droppable({
-        accept: ".inputNameRow",
-        hoverClass: "returnNameHover",
-        drop: function(){
-            dropInputRow(inputRow,picture)
-            inputRow.remove();
-        }
-    });
-    $('.notTaken').droppable({
-        accept: ".inputNameRow",
-        hoverClass: "darken",
-        drop: function(){
-            dropSciName(inputRow,$(this))
-            picture.addClass("notTaken");
-            picture.droppable("option", "disabled", false);
-            inputRow.remove();
-        }
-    });
-
-}
 
 function dropSciName(sciName, quizImage){
     var name = sciName[0].id
@@ -161,7 +122,39 @@ function dropSciName(sciName, quizImage){
     
 }
 
+function inputClicked(inputRow){
+    var pictureCol = $(inputRow.parent().parent().children()[1]) 
+    var picture = $(pictureCol.children()[0])
+    
+    $('#namesBox').addClass("returnNameHover")
+    inputRow.mousedown(function(){
+        $('#namesBox').addClass("returnNameHover")
+    })
+    inputRow.mouseup(function(){
+        $('#namesBox').removeClass("returnNameHover")
+    })
+    
 
+    $('#namesBox').droppable({
+        accept: ".inputNameRow",
+        hoverClass: "returnNameHoverEvenDarker",
+        drop: function(){
+            dropInputRow(inputRow,picture)
+            inputRow.remove();
+        }
+    });
+    $('.notTaken').droppable({
+        accept: ".inputNameRow",
+        hoverClass: "darken",
+        drop: function(){
+            dropSciName(inputRow,$(this))
+            picture.addClass("notTaken");
+            picture.droppable("option", "disabled", false);
+            inputRow.remove();
+        }
+    });
+
+}
 
 function dropInputRow(inputRow,picture){
     var namesBox = $('#namesBox');
@@ -180,8 +173,31 @@ function dropInputRow(inputRow,picture){
     picture.addClass("notTaken")
 }
 
+function shuffle(plants) {
+    var j, x, i;
+    var a = plants.slice();
+    
+    for (i = a.length - 1; i > 0; i--) {
+        j = Math.floor(Math.random() * (i + 1));
+        x = a[i];
+        a[i] = a[j];
+        a[j] = x;
+    }
+    return a;
+}
+
+
+
+
+
+
+
+
+
+
 function generateResults(){
     var answerRows = $('#picturesBox').children()
+    var allRight = true;
     for (var i = 0; i < answerRows.length; i++){
         var answerCol = $($(answerRows[i]).children()[0])
         var imageCol = $($(answerRows[i]).children()[1])
@@ -192,6 +208,7 @@ function generateResults(){
             console.log(answer[0].id)
             if (answer[0].id != guess.id){
                 $(guess).addClass("wrongAnswer")
+                allRight = false;
             }
             else {
                 console.log("RIGHT")
@@ -199,4 +216,7 @@ function generateResults(){
         }
 
     }
-}
+    if (allRight){
+        alert("Congrats, you got them all right!");
+    }
+} 

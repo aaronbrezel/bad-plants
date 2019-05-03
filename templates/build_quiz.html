@@ -1,0 +1,50 @@
+{% extends "index.html" %}
+{% block title %}Search{% endblock %}
+{% block head %}
+    {{ super() }}
+    
+    
+    <script type="text/javascript" src="{{ url_for('static', filename = 'build_quiz.js') }}"></script>
+
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='build_quiz.css') }}">
+    
+
+<script>
+        var quiz = {{quiz|tojson}}
+</script>
+
+
+{% endblock %}
+
+{% block content %}
+<br>
+<div class="row page">
+    <div class="col">
+        <div class="row" id="quizNameRow">
+            <div class="col" id="quizNameCol">
+            </div>
+        </div>   
+        <div class="row">
+            <div class="col" id="quizDirectionsCol">
+                <h2>Drag the scientific name to the appropriate photo. Good Luck.</h2>
+            </div>
+        </div>        
+        <div class="row">
+            <div class="col-3" id="namesBox">        
+            </div>
+            <div class="col-1" id="fillerBox">
+            </div>
+            <div class="col-8" id="picturesBox">            
+            </div>
+        </div>
+        <div class="row" id="quizResultsButtonRow">
+            <div class= "col">
+                <button type="button" class="btn btn-success btn-sm btn-block" id="viewQuizResults">View Results</button>
+            </div>
+        </div>
+    </div>
+    
+            
+</div>
+
+{% endblock %}

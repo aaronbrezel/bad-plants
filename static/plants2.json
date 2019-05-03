@@ -1,0 +1,905 @@
+[
+  {
+    "plant id": 1,
+    "Scientific name": "Abrus precatorius",
+    "Common Name": "Jequirity, Crab's Eye, Rosary Pea, 'John Crow' Bead, Precatory Bean, Indian Licorice, Akar Saga, Giddee Giddee, Jumbie Bead, Ruti, Weather Plant",
+    "Notes": "Known commonly as jequirity, crab's eye, rosary pea, 'John Crow' bead, precatory bean, Indian licorice, akar saga, giddee giddee, jumbie bead, ruti, and weather plant. The attractive seeds (usually about the size of a ladybug, glossy red with one black dot) contain abrin, a ribosome-inactivating protein related to ricin, and very potent. Symptoms of poisoning include nausea, vomiting, convulsions, liver failure, and death, usually after several days. Ingesting a single seed can kill an adult human. The seeds have been used as beads in jewelry, which is dangerous; inhaled dust is toxic and pinpricks can be fatal. The seeds are unfortunately attractive to children.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Lucky_Bean_Creeper_%28Abrus_precatorius%29_pods_of_seeds_%2811587246435%29.jpg/400px-Lucky_Bean_Creeper_%28Abrus_precatorius%29_pods_of_seeds_%2811587246435%29.jpg"
+  },
+  {
+    "plant id": 2,
+    "Scientific name": "Aconitum genus",
+    "Common Name": "Aconite, Wolfsbane, Monkshood",
+    "Notes": "Several species, commonly called aconite, wolfsbane and monkshood. All parts are poisonous. The poison is an alkaloid called aconitine, which disables nerves, lowers blood pressure, and can stop the heart. Even casual skin contact should be avoided; symptoms include numbness, tingling, and cardiac irregularity. It has been used as poison for bullets (by German forces during World War II), as a bait and arrow poison (ancient Greece), and to poison water supplies (reports from ancient Asia).[citation needed] If ingested, it usually causes burning, tingling, and numbness in the mouth, followed by vomiting and nervous excitement. It is usually a quick-acting poison, and has been used in the past for killing wolves (hence one of the common names).",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Aconitum_napellus_004.JPG/400px-Aconitum_napellus_004.JPG"
+  },
+  {
+    "plant id": 3,
+    "Scientific name": "Actaea pachypoda",
+    "Common Name": "Doll's Eyes, White Baneberry",
+    "Notes": "Also known as doll's eyes or white baneberry. All parts are poisonous, especially the berries, the consumption of which has a sedative effect on cardiac muscle tissue and can cause cardiac arrest.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Doll%27s_Eyes%2C_Mount_Auburn_Cemetery%2C_Cambridge%2C_Massachusetts.jpg/400px-Doll%27s_Eyes%2C_Mount_Auburn_Cemetery%2C_Cambridge%2C_Massachusetts.jpg"
+  },
+  {
+    "plant id": 4,
+    "Scientific name": "Adenium obesum",
+    "Common Name": "Sabi Star, Kudu, Desert-Rose",
+    "Notes": "Also known as sabi star, kudu or desert-rose. The plant exudes a highly toxic sap which is used by the Meridian High and Hadza in Tanzania to coat arrow-tips for hunting.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Maldives_01010.JPG/400px-Maldives_01010.JPG"
+  },
+  {
+    "plant id": 5,
+    "Scientific name": "Adonis vernalis",
+    "Common Name": "Pheasant's Eye, False Hellebore",
+    "Notes": "Known variously as pheasant's eye and false hellebore, the plant is poisonous, containing cardiostimulant compounds, such as adonidin and aconitic acid.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adonis_vernalis_sl10.jpg/400px-Adonis_vernalis_sl10.jpg"
+  },
+  {
+    "plant id": 6,
+    "Scientific name": "Aesculus hippocastanum",
+    "Common Name": "Horse-Chestnut",
+    "Notes": "Commonly known as horse-chestnut. All parts of the plant are poisonous, causing nausea, muscle twitches, and sometimes paralysis.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Horse_chestnut_flowers_in_Brodalen_4.jpg/440px-Horse_chestnut_flowers_in_Brodalen_4.jpg"
+  },
+  {
+    "plant id": 7,
+    "Scientific name": "Agave genus",
+    "Common Name": " ",
+    "Notes": "The juice of a number of species causes acute contact dermatitis, with blistering lasting several weeks and recurring itching for several years thereafter.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Agave_americana_R01.jpg/440px-Agave_americana_R01.jpg"
+  },
+  {
+    "plant id": 8,
+    "Scientific name": "Ageratina altissima",
+    "Common Name": "White SnakeRoot",
+    "Notes": "Commonly known as white snakeroot. All parts are poisonous, causing nausea and vomiting. Often fatal. Milk from cattle that have eaten white snakeroot can sicken, or kill, humans (milk sickness).",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Ageratina_altissima_002.JPG/400px-Ageratina_altissima_002.JPG"
+  },
+  {
+    "plant id": 9,
+    "Scientific name": "Agrostemma githago",
+    "Common Name": "Corn Cockle",
+    "Notes": "Commonly known as corn cockle. Contains the saponins githagin and agrostemmic acid. All parts of the plant are reported to be poisonous and may produce chronic or acute, potentially fatal poisoning, although it has been used in folk medicine to treat a range of ills, from parasites to cancer. There are no known recent clinical studies of corn cockle which provide a basis for dosage recommendations, however doses higher than 3�g (of seeds) are considered toxic.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Agrostemma_githago_sl1.jpg/400px-Agrostemma_githago_sl1.jpg"
+  },
+  {
+    "plant id": 10,
+    "Scientific name": "Anemone nemorosa",
+    "Common Name": "Wood Anemone, Windflower, Thimbleweed",
+    "Notes": "Common names include wood anemone, windflower and thimbleweed. The plant contains poisonous chemicals that are toxic to animals including humans, but it has also been used as a medicine. All parts of the plant contain protoanemonin, which can cause severe skin and gastrointestinal irritation, bitter taste and burning in the mouth and throat, mouth ulcers, nausea, vomiting, diarrhea, and hematemesis.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/20150421Anemone_nemorosa2.jpg/400px-20150421Anemone_nemorosa2.jpg"
+  },
+  {
+    "plant id": 11,
+    "Scientific name": "Anthurium genus",
+    "Common Name": "Anthurium, Tailflower, Flamingo Flower",
+    "Notes": "Common names include anthurium, tailflower, flamingo flower. Anthurium plants are poisonous due to calcium oxalate crystals. The sap is irritating to the skin and eyes.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Aanthurium.JPG/400px-Aanthurium.JPG"
+  },
+  {
+    "plant id": 12,
+    "Scientific name": "Aquilegia genus",
+    "Common Name": "Columbine",
+    "Notes": "Several species commonly known as columbine. Seeds and roots contain cardiogenic toxins which cause both severe gastroenteritis and heart palpitations if consumed. The flowers of various species were consumed in moderation by Native Americans as a condiment with other fresh greens, and are reported to be very sweet, and safe if consumed in small quantities. Native Americans also used very small amounts of the root as an effective treatment for ulcers. However, medical use of this plant is difficult due to its high toxicity; columbine poisonings are easily fatal.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AQUILEGIA_VULGARIS_-_GUIXERS_-_IB-0174.JPG/400px-AQUILEGIA_VULGARIS_-_GUIXERS_-_IB-0174.JPG"
+  },
+  {
+    "plant id": 13,
+    "Scientific name": "Areca catechu",
+    "Common Name": "Betel Nut Palm, Pinyang",
+    "Notes": "Commonly known as betel nut palm and pinyang. The nut contains an alkaloid related to nicotine which is addictive. It produces a mild high, some stimulation, and lots of red saliva, which cannot be swallowed as it causes nausea. Withdrawal causes headache and sweats. Use is correlated with mouth cancer, and to a lesser extent asthma and heart disease.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/BuahPinangMuda.jpg/240px-BuahPinangMuda.jpg"
+  },
+  {
+    "plant id": 14,
+    "Scientific name": "Argemone mexicana",
+    "Common Name": "Mexican Poppy, Flowering Thistle, Cardo, Cardosanto",
+    "Notes": "Common names include Mexican poppy, flowering thistle, cardo or cardosanto. A. mexicana seeds contain 22�36% of a pale yellow non-edible oil, called argemone oil or katkar oil, which contains the toxic alkaloids sanguinarine and dihydrosanguinarine. Katkar oil poisoning causes epidemic dropsy, with symptoms including extreme swelling, particularly of the legs.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Argemone_Mexicana.jpg/400px-Argemone_Mexicana.jpg"
+  },
+  {
+    "plant id": 15,
+    "Scientific name": "Arnica montana",
+    "Common Name": "Wolf's Bane",
+    "Notes": "Also known as wolf's bane. It contains the toxin helenalin, which can be poisonous if large amounts of the plant are eaten or small amounts of concentrated Arnica are used. Consumption of A. montana can produce severe gastroenteritis, internal bleeding of the digestive tract, raised liver enzymes (which can indicate inflammation of the liver), nervousness, accelerated heart rate, muscular weakness, and death if enough is ingested.[36][37] Contact with the plant can also cause skin irritation. In the Ames test, an extract of A. montana was found to be mutagenic. The plant's toxicity has led to the USFDA officially declaring it to be an unsafe.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Arnica_montana_%28flower_head%29.jpg/400px-Arnica_montana_%28flower_head%29.jpg"
+  },
+  {
+    "plant id": 16,
+    "Scientific name": "Arum maculatum",
+    "Common Name": "Cuckoo-Pint, Lords and Ladies, Jack-in-the-Pulpit, Wake Robin, Wild Arum, Devils and Angels, Cows and Bulls, Adam and Eve, Bobbins and Starch-root",
+    "Notes": "Commonly known as cuckoo-pint, lords and ladies, jack-in-the-pulpit, wake robin, wild arum, devils and angels, cows and bulls, Adam and Eve, bobbins and starch-root. All parts of the plant can produce allergic reactions. The bright red berries contain oxalates of saponins and can cause skin, mouth and throat irritation, resulting in swelling, burning pain, breathing difficulties and stomach upset. One of the most common causes of plant poisoning.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Arummaculatum_1.jpg/400px-Arummaculatum_1.jpg"
+  },
+  {
+    "plant id": 17,
+    "Scientific name": "Atropa belladonna",
+    "Common Name": "Deadly Nightshade, Belladonna, Devil's Cherry, Dwale",
+    "Notes": "Commonly known as deadly nightshade, belladonna, devil's cherry and dwale, an Anglo-Saxon term meaning \"stupifying drink\"). One of the most toxic plants found in the Western hemisphere, all parts of the plant contain tropane alkaloids � as do those of its equally deadly sister species A.baetica, A.pallidiflora and A.acuminata. The active agents are atropine, hyoscine (scopolamine), and hyoscyamine, which have anticholinergic properties. The symptoms of poisoning include dilated pupils, sensitivity to light, blurred vision, tachycardia, loss of balance, staggering, headache, rash, flushing, dry mouth and throat, slurred speech, urinary retention, constipation, confusion, hallucinations, delirium, and convulsions. The root of the plant is generally the most toxic part, though this can vary from one specimen to another. Ingestion of a single leaf of the plant can be fatal to an adult. Casual contact with the leaves can cause skin pustules. The berries pose the greatest danger to children because they look attractive and have a somewhat sweet taste. The consumption of two to five berries by children and ten to twenty berries by adults can be lethal. In 2009, a case of A. belladonna being mistaken for blueberries, with six berries ingested by an adult woman, was documented to result in severe anticholinergic syndrome. The plant's deadly symptoms are caused by atropine's disruption of the parasympathetic nervous system's ability to regulate involuntary activities such as sweating, breathing, and heart rate. The antidote for atropine poisoning is physostigmine or pilocarpine. A. belladonna is also toxic to many domestic animals, causing narcosis and paralysis. However, cattle and rabbits eat the plant seemingly without any harmful effects. In humans its anticholinergic properties will cause the disruption of cognitive capacities like memory and learning.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Flickr_-_don_macauley_-_Deadly_Nightshade.jpg/400px-Flickr_-_don_macauley_-_Deadly_Nightshade.jpg"
+  },
+  {
+    "plant id": 18,
+    "Scientific name": "Brugmansia genus",
+    "Common Name": "Angel's Trumpet",
+    "Notes": "Commonly known as angel's trumpet. All parts of all plants in this genus contain the tropane alkaloids scopolamine and atropine; often fatal. These plants are closely related to and were once grouped with members of the genus Datura, which contain the same deadly alkaloids. Effects of ingestion may include losing connection with reality and hallucinations. An unfortunate case has been reported in the neuroscience literature, about a young man performing self-amputation with pruning shears after intentionally ingesting brugmansia tea, boiled from just two flowers.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/AngelTrumpet_Mounts_Asit.jpg/400px-AngelTrumpet_Mounts_Asit.jpg"
+  },
+  {
+    "plant id": 19,
+    "Scientific name": "Caladium genus",
+    "Common Name": "Angel Wings, Elephant Ear, Heart of Jesus",
+    "Notes": "Commonly known as angel wings, elephant ear and heart of Jesus. All parts of all plants in this genus are poisonous. Symptoms are generally irritation, pain, and swelling of tissues. If the mouth or tongue swell, breathing may be fatally blocked.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Starr_071024-9740_Caladium_bicolor.jpg/400px-Starr_071024-9740_Caladium_bicolor.jpg"
+  },
+  {
+    "plant id": 20,
+    "Scientific name": "Calla palustris",
+    "Common Name": "Marsh Calla, Wild Calla, Water-Arum",
+    "Notes": "Also known as marsh calla, wild calla and water-arum. The plant is very poisonous when fresh due to its high oxalic acid content, but the rhizome (like that of Caladium, Colocasia, and Arum) is edible after drying, grinding, leaching and boiling.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Sumpfcalla_Sothrieth_01.jpg/400px-Sumpfcalla_Sothrieth_01.jpg"
+  },
+  {
+    "plant id": 21,
+    "Scientific name": "Caltha palustris",
+    "Common Name": "Marsh-Marigold, Kingcup",
+    "Notes": "Commonly known as marsh-marigold and kingcup. It contains several active substances of which the most important from a toxicological point of view is protoanemonin. Larger quantities of the plant may cause convulsions, burning of the throat, vomiting, bloody diarrhea, dizziness and fainting. Contact of the skin or mucous membranes with the juices can cause blistering or inflammation, and gastric illness if ingested. Younger parts seem to contain less toxics and heating breaks these substances down. Small amounts of Caltha in hay do not cause problems when fed to husbandry, but larger quantities lead to gastric illness.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Caltha_palustris_Moshchun2.JPG/400px-Caltha_palustris_Moshchun2.JPG"
+  },
+  {
+    "plant id": 22,
+    "Scientific name": "Cascabela thevetia",
+    "Common Name": "Yellow Oleander",
+    "Notes": "Also known as yellow oleander. All parts of the plant are toxic to most vertebrates as they contain cardiac glycosides. Many cases of intentional and accidental poisoning of humans are known.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Starr_061129-1728_Thevetia_peruviana.jpg/400px-Starr_061129-1728_Thevetia_peruviana.jpg"
+  },
+  {
+    "plant id": 23,
+    "Scientific name": "Cephalanthus occidentalis",
+    "Common Name": "Buttonbush",
+    "Notes": "Commonly called buttonbush. It has a number of historical medicinal uses, but it is also toxic due to the presence of cephalathin.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Buttonbush_--_Cephalanthus_occidentalis.jpg/400px-Buttonbush_--_Cephalanthus_occidentalis.jpg"
+  },
+  {
+    "plant id": 24,
+    "Scientific name": "Cerbera odollam",
+    "Common Name": "Suicide Tree",
+    "Notes": "Commonly known as the suicide tree. The seeds contain cerberin, a potent toxin related to digoxin. The poison blocks the calcium ion channels in heart muscle, causing disruption of the heart beat. This is typically fatal and can result from ingesting a single seed. Cerberin is difficult to detect in autopsies and its taste can be masked with strong spices, such as a curry. It is often used in homicide and suicide in India; Kerala's suicide rate is about three times the Indian average. In 2004, a team led by Yvan Gaillard of the Laboratory of Analytical Toxicology in La Voulte-sur-Rh�ne, France, documented more than 500 cases of fatal Cerbera poisoning between 1989 and 1999 in Kerala. They said \"To the best of our knowledge, no plant in the world is responsible for as many deaths by suicide as the odollam tree.' A related species is Cerbera tanghin the seeds of which are known as tanghin poison nut and have been used as an 'ordeal poison'.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Cerbera_odollam_%28Flowers%29.JPG/400px-Cerbera_odollam_%28Flowers%29.JPG"
+  },
+  {
+    "plant id": 25,
+    "Scientific name": "Chelidonium majus",
+    "Common Name": "Greater Celandine",
+    "Notes": "Also known as greater celandine. The whole plant is toxic in moderate doses as it contains a range of isoquinoline alkaloids, but there are claimed to be therapeutic uses when used at the correct dosage. The main alkaloid present in the herb and root is coptisine, with berberine, chelidonine, sanguinarine and chelerythrine also present. Sanguinarine is particularly toxic with an LD50 of only 18�mg per kg body weight. The effect of the fresh herb is analgesic, cholagogic, antimicrobial and oncostatic, with action as a central nervous system sedative. In animal tests, Chelidonium majus is shown to be cytostatic. Early studies showed that the latex causes contact dermatitis and eye irritation. Stains on skin of the fingers are sometimes reported to cause eye irritation after rubbing the eyes or handling contact lenses. The characteristic latex also contains proteolytic enzymes and the phytocystatin chelidostatin, a cysteine protease inhibitor.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Chelidonium_majus20100511_10.jpg/400px-Chelidonium_majus20100511_10.jpg"
+  },
+  {
+    "plant id": 26,
+    "Scientific name": "Cicuta genus",
+    "Common Name": "Water Hemlock, Cowbane, Wild Carrot, Snakeweed, Poison Parsnip, False Parsley, Children's Bane, Death-of-Man",
+    "Notes": "Commonly known as water hemlock, cowbane, wild carrot, . The root, when freshly pulled out of the ground, is extremely poisonous and contains the toxin cicutoxin, a central nervous system stimulant that induces seizures. When dried, the poisonous effect is reduced. The most common species is C. maculata; one of the species found in the Western USA, C. douglasii, often found in pastures and swamps, has especially thick stems and very large and sturdy flowers which are sometimes harvested for flower displays. This is inadvisable as the sap is also toxic.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cicuta_virosa_002.JPG/400px-Cicuta_virosa_002.JPG"
+  },
+  {
+    "plant id": 27,
+    "Scientific name": "Cleistanthus collinus",
+    "Common Name": " ",
+    "Notes": "Ingestion of its leaves or a dicoction of its leaves causes hypokalemia (kaliuresis and cardiac arrhythmias), metabolic acidosis, hypotension and hypoxia.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Cleistanthus_collinus_%28Garari%29_in_Narsapur_forest%2C_AP_W_IMG_0165.jpg/400px-Cleistanthus_collinus_%28Garari%29_in_Narsapur_forest%2C_AP_W_IMG_0165.jpg"
+  },
+  {
+    "plant id": 28,
+    "Scientific name": "Clivia miniata",
+    "Common Name": "Natal Lily, Bush Lily, Kaffir Lily",
+    "Notes": "Commonly known as Natal lily, bush lily and Kaffir lily. It contains small amounts of lycorine, making it poisonous.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Clivia_miniata1.jpg/400px-Clivia_miniata1.jpg"
+  },
+  {
+    "plant id": 29,
+    "Scientific name": "Codiaeum variegatum",
+    "Common Name": "Garden Croton, Variegated Croton",
+    "Notes": "Also known as garden croton or variegated croton. As with many of the Euphorbiaceae, the sap can cause skin eczema in some people. The bark, roots, latex, and leaves are poisonous.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Codiaeum_variegatum%2C_Phipps_Conservatory.jpg/400px-Codiaeum_variegatum%2C_Phipps_Conservatory.jpg"
+  },
+  {
+    "plant id": 30,
+    "Scientific name": "Colchicum autumnale",
+    "Common Name": "Autumn Crocus, Meadow Saffron",
+    "Notes": "Commonly known as autumn crocus and meadow saffron. The bulbs contain colchicine. Colchicine poisoning has been compared to arsenic poisoning; symptoms typically start 2 to 5 hours after a toxic dose has been ingested but may take up to 24 hours to appear, and include burning in the mouth and throat, fever, vomiting, diarrhea, abdominal pain and kidney failure. Onset of multiple-system organ failure may occur within 24 to 72 hours. This includes hypovolemic shock due to extreme vascular damage and fluid loss through the GI tract, which may result in death. Additionally, sufferers may experience kidney damage resulting in low urine output and bloody urine, low white blood cell counts (persisting for several days), anemia, muscular weakness, and respiratory failure. Recovery may begin within 6 to 8 days. There is no specific antidote for colchicine, although various treatments do exist. Despite dosing issues concerning its toxicity, colchicine is prescribed in the treatment of gout, familial Mediterranean fever, pericarditis and Beh�et's disease. It is also being investigated for its use as an anti-cancer drug.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Colchicum_autumnale_ENBLA03.jpeg/400px-Colchicum_autumnale_ENBLA03.jpeg"
+  },
+  {
+    "plant id": 31,
+    "Scientific name": "Conium maculatum",
+    "Common Name": "Hemlock, Poison Hemlock, Spotted Parsley, Spotted Cowbane, Bad-Man's Oatmeal, Poison Snakeweed and Beaver Poison",
+    "Notes": "Commonly known as hemlock, poison hemlock, spotted parsley, spotted cowbane, bad-man's oatmeal, poison snakeweed and beaver poison. All parts of the plant contain the alkaloid coniine which causes stomach pains, vomiting, and progressive paralysis of the central nervous system; can be fatal. Not to be confused with hemlock trees (Tsuga spp.), which, while not edible, are not nearly as toxic as the herbaceous plant. An infusion of poison hemlock is said to have killed Socrates in 399 BC.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Hemlockseeds.jpg/400px-Hemlockseeds.jpg"
+  },
+  {
+    "plant id": 32,
+    "Scientific name": "Consolida subgenus",
+    "Common Name": "Larkspur",
+    "Notes": "Commonly known as larkspur. Young plants and seeds are poisonous, causing nausea, muscle twitches, and paralysis; often fatal. Other plants in the parent genus Delphinium are also poisonous and commonly called larkspur.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/20150605Consolida_regalis4.jpg/400px-20150605Consolida_regalis4.jpg"
+  },
+  {
+    "plant id": 33,
+    "Scientific name": "Convallaria majalis",
+    "Common Name": "Lily of the Valley",
+    "Notes": "Commonly known as lily of the valley. Contains 38 different cardiac glycosides.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Lily_of_the_valley_777.jpg/400px-Lily_of_the_valley_777.jpg"
+  },
+  {
+    "plant id": 34,
+    "Scientific name": "Coriaria myrtifolia",
+    "Common Name": "Redoul",
+    "Notes": "Commonly known as redoul. A Mediterranean plant containing the toxin coriamyrtin, ingestion of which produces digestive, neurological and respiratory problems. The poisonous fruits superficially resemble blackberries and may mistakenly be eaten as such. Can be fatal in children.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Coriaria_myrtifolia_3c.JPG/400px-Coriaria_myrtifolia_3c.JPG"
+  },
+  {
+    "plant id": 35,
+    "Scientific name": "Cytisus scoparius",
+    "Common Name": "Broom, Common Broom",
+    "Notes": "Commonly known as broom or common broom. Contains toxic alkaloids that depress the heart and nervous system. The alkaloid sparteine is a class 1a antiarrhythmic agent, a sodium channel blocker. It is not FDA approved for human use as an antiarrhythmic agent, and it is not included in the Vaughn Williams classification of antiarrhythmic drugs.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2016.05.07.-02-Viernheim--Besenginster.jpg/400px-2016.05.07.-02-Viernheim--Besenginster.jpg"
+  },
+  {
+    "plant id": 36,
+    "Scientific name": "Daphne genus",
+    "Common Name": " ",
+    "Notes": "The berries (either red or yellow) are poisonous, causing burns to mouth and digestive tract, followed by coma; often fatal.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Daphne_mezereum_003.JPG/400px-Daphne_mezereum_003.JPG"
+  },
+  {
+    "plant id": 37,
+    "Scientific name": "Datura genus",
+    "Common Name": "Jimson Weed, Thorn Apple, Stinkweed, Jamestown Weed, Angel's Trumpets, Moonflower, Sacred Datura",
+    "Notes": "Several species commonly known as jimson weed, thorn apple, stinkweed, Jamestown weed, angel's trumpets, moonflower, and sacred datura. Containing the tropane alkaloids scopolamine, hyoscyamine, and atropine, all parts of these plants are poisonous, especially the seeds and flowers. Ingestion causes abnormal thirst, hyperthermia, severe delirium and incoherence, visual distortions, bizarre and possibly violent behavior, memory loss, coma, and often death; it is a significant poison to grazing livestock in North America. Datura has been used as an entheogenic drug by the indigenous peoples of the Americas and others for centuries, though the extreme variability in a given plant's toxicity depending on its age and growing environment make such usage an exceptionally hazardous practice; the difference between a recreational dose and a lethal dose is minuscule,[66] and incorrect dosage often results in death. For this same reason, Datura has also been a popular poison for suicide and murder, particularly in parts of Europe and India. Reports of recreational usage are overwhelmingly negative; the majority of those who describe their use of Datura find their experiences extremely unpleasant and often physically dangerous.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Datura_stramonium_002.JPG/400px-Datura_stramonium_002.JPG"
+  },
+  {
+    "plant id": 38,
+    "Scientific name": "Daucus carota",
+    "Common Name": "Wild Carrot",
+    "Notes": "Commonly known as wild carrot. It can be dangerously toxic to humans. Daucus carota has been reported to contain acetone, asarone, choline, ethanol, formic acid, HCN, isobutyric acid, limonene, malic acid, maltose, oxalic acid, palmitic acid, pyrrolidine, and quinic acid. When in contact with wet Daucus carota, skin irritation and vesication may occur.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ab_plant_184.JPG/400px-Ab_plant_184.JPG"
+  },
+  {
+    "plant id": 39,
+    "Scientific name": "Deathcamas",
+    "Common Name": " ",
+    "Notes": "Various genera in the family Melanthieae have species whose common names include \"deathcamas\", including Amianthium, Anticlea, Stenanthium, Toxicoscordion and Zigadenus. All parts of these plants are toxic, due to the presence of alkaloids. Grazing animals, such as sheep and cattle, may be affected and human fatalities have occurred.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Zigadenus_venenosus_var_venenosus_1.jpg/400px-Zigadenus_venenosus_var_venenosus_1.jpg"
+  },
+  {
+    "plant id": 40,
+    "Scientific name": "Delphinium genus",
+    "Common Name": "Larkspur",
+    "Notes": "Also known as larkspur. Contains the alkaloid delsoline. Young plants and seeds are poisonous, causing nausea, muscle twitches, paralysis, and often death.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Larkspur.JPG/400px-Larkspur.JPG"
+  },
+  {
+    "plant id": 41,
+    "Scientific name": "Dendrocnide moroides",
+    "Common Name": "Stinging Tree, Gympie Gympie",
+    "Notes": "Known also as stinging tree and gympie gympie. Capable of inflicting a painful sting when touched. The stinging may last for several days and is exacerbated by touching, rubbing, and cold temperatures; can be fatal.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Stinging_tree.JPG/400px-Stinging_tree.JPG"
+  },
+  {
+    "plant id": 42,
+    "Scientific name": "Dicentra cucullaria",
+    "Common Name": "Bleeding Heart, Dutchman's Breeches",
+    "Notes": "Also known as bleeding heart and Dutchman's breeches. Leaves and roots are poisonous and cause convulsions and other nervous symptoms.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Dicentra_cucullaria.JPG/400px-Dicentra_cucullaria.JPG"
+  },
+  {
+    "plant id": 43,
+    "Scientific name": "Dichapetalum cymosum",
+    "Common Name": "Gifblaar",
+    "Notes": "Also known as gifblaar. Well known as a livestock poison in South Africa, this plant contains the metabolic poison fluoroacetic acid.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Gifblaar.jpg/440px-Gifblaar.jpg"
+  },
+  {
+    "plant id": 44,
+    "Scientific name": "Dieffenbachia genus",
+    "Common Name": "Dumbcane",
+    "Notes": "Commonly known as dumbcane. All parts are poisonous; the culprits are needle-shaped crystals of calcium oxalate called raphides, which can cause intense burning, reddening of the skin, irritation, and immobility of the tongue, mouth, and throat if ingested. Swelling can be severe enough to block breathing, leading to death, though this is rare; in most cases, symptoms are mild and can be successfully treated with basic analgesics, antihistamines, or charcoal.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Dieffenbachia_bauseii_a1.jpg/400px-Dieffenbachia_bauseii_a1.jpg"
+  },
+  {
+    "plant id": 45,
+    "Scientific name": "Digitalis purpurea",
+    "Common Name": "Foxglove",
+    "Notes": "Commonly known as foxglove. The leaves, seeds, and flowers are poisonous, containing cardiac or other steroid glycosides. These cause irregular heartbeat, general digestive upset, and confusion; can be fatal.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Digitalis_purpurea_%28%C5%BBywiec%2C_VII_2006%29.JPG/400px-Digitalis_purpurea_%28%C5%BBywiec%2C_VII_2006%29.JPG"
+  },
+  {
+    "plant id": 46,
+    "Scientific name": "Dioscorea communis",
+    "Common Name": "Black Bryony",
+    "Notes": "Also known as black bryony. All components of the plant, including the tubers, are poisonous due to saponin content, therefore it is not typically used internally. However, it has been used as a poultice for bruises and inflamed joints. It has been suggested that black bryony be used topically with caution, due to a tendency for the plant to cause painful blisters. Studies have isolated calcium oxalate deposits and histamines in the berry juice and rhizomes, which may contribute to skin irritation and contact dermatitis.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Lliwiau%27r_Hydref_-_Autumn_Colours_-_geograph.org.uk_-_597806.jpg/400px-Lliwiau%27r_Hydref_-_Autumn_Colours_-_geograph.org.uk_-_597806.jpg"
+  },
+  {
+    "plant id": 47,
+    "Scientific name": "Duranta erecta",
+    "Common Name": "Golden Dewdrop, Pigeon Berry, Skyflower",
+    "Notes": "Common names include golden dewdrop, pigeon berry, and skyflower. The leaves and berries of the plant are toxic and are confirmed to have killed children, dogs and cats.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Duranta_erecta_%28inflorescense%29.jpg/400px-Duranta_erecta_%28inflorescense%29.jpg"
+  },
+  {
+    "plant id": 48,
+    "Scientific name": "Erysimum cheiri",
+    "Common Name": "Wallflower",
+    "Notes": "Also known as wallflower. It contains constituents that may affect the heart.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/20150414Erysimum_cheiri3.jpg/400px-20150414Erysimum_cheiri3.jpg"
+  },
+  {
+    "plant id": 49,
+    "Scientific name": "Euonymus europaeus",
+    "Common Name": "Spindle",
+    "Notes": "Commonly known as spindle, European spindle or spindle tree. The fruit is poisonous, containing amongst other substances, the alkaloids theobromine and caffeine, as well as an extremely bitter terpene. Poisonings are more common in young children, who are enticed by the brightly coloured fruits. Ingestion can result in liver and kidney damage and even death. There are many other species of Euonymus, many of which are also poisonous.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Gew%C3%B6hnlicher_Spindelstrauch_%28Euonymus_europaeus%29_IMG_7940.JPG/400px-Gew%C3%B6hnlicher_Spindelstrauch_%28Euonymus_europaeus%29_IMG_7940.JPG"
+  },
+  {
+    "plant id": 50,
+    "Scientific name": "Euphorbia pulcherrima",
+    "Common Name": "Poinsettia",
+    "Notes": "Known as poinsettia. Its latex can cause an allergic reaction in sensitive individuals. It is also mildly irritating to the skin or stomach and may sometimes cause diarrhea and vomiting if eaten. Sap introduced into the human eye may cause temporary blindness.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Pink_and_green_pointsettia.jpg/400px-Pink_and_green_pointsettia.jpg"
+  },
+  {
+    "plant id": 51,
+    "Scientific name": "Excoecaria agallocha",
+    "Common Name": "Milky Mangrove, Blind-Your-Eye Mangrove, River Poison Tree",
+    "Notes": "Commonly known as milky mangrove, blind-your-eye mangrove and river poison tree. Contact with latex can cause skin irritation and blistering; eye contact can cause temporary blindness.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Blind_Your_Eye_Flwoer_01.jpg/400px-Blind_Your_Eye_Flwoer_01.jpg"
+  },
+  {
+    "plant id": 52,
+    "Scientific name": "Galanthus nivalis",
+    "Common Name": "Snowdrop",
+    "Notes": "Known as snowdrop. The plant contains an active lectin or agglutinin named GNA for Galanthus nivalis agglutinin, which is toxic.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Galanthus_nivalis_2202.JPG/400px-Galanthus_nivalis_2202.JPG"
+  },
+  {
+    "plant id": 53,
+    "Scientific name": "Gelsemium sempervirens",
+    "Common Name": "Yellow Jessamine",
+    "Notes": "Commonly known as yellow jessamine. All parts are poisonous, causing nausea and vomiting. Often fatal. It is possible to become ill from ingesting honey made from jessamine nectar.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Gelsemium_sempervirens6.jpg/400px-Gelsemium_sempervirens6.jpg"
+  },
+  {
+    "plant id": 54,
+    "Scientific name": "Gloriosa superba",
+    "Common Name": "Flame Lily, Climbing Lily, Gloriosa Lily, Fire Lily",
+    "Notes": "Common names include flame lily, climbing lily, gloriosa lily, and fire lily. The plant is poisonous, toxic enough to cause human and animal fatalities if ingested. Every part of the plant is poisonous, especially the tuberous rhizomes. As with other members of the Colchicaceae, this plant contains high levels of colchicine, a toxic alkaloid. It also contains the alkaloid gloriocine. Within a few hours of the ingestion of a toxic amount of plant material, a victim may experience nausea, vomiting, numbness, and tingling around the mouth, burning in the throat, abdominal pain, and bloody diarrhea. As the toxic syndrome progresses, rhabdomyolysis, ileus, respiratory depression, hypotension, coagulopathy, haematuria, altered mental status, seizures, coma, and ascending polyneuropathy may occur.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Gloriosa_superba_1.jpg/400px-Gloriosa_superba_1.jpg"
+  },
+  {
+    "plant id": 55,
+    "Scientific name": "Grevillea sp.",
+    "Common Name": "Silky Oak, Spiderflower",
+    "Notes": "Commonly known as silky oak and spiderflower. A few species such as Grevillea 'Robyn Gordon', G. robusta, G. banksii, G. bipinnatifida and others can cause severe contact dermatitis.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Grevillea_bipinnatifida.jpg/400px-Grevillea_bipinnatifida.jpg"
+  },
+  {
+    "plant id": 56,
+    "Scientific name": "Hedera helix",
+    "Common Name": "Common Ivy",
+    "Notes": "Also known as common ivy. The leaves and berries are poisonous, causing stomach pains, labored breathing, and possible coma.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/29151224Hedera_helix1.jpg/400px-29151224Hedera_helix1.jpg"
+  },
+  {
+    "plant id": 57,
+    "Scientific name": "Heliotropium indicum",
+    "Common Name": "Indian Heliotrope",
+    "Notes": "Commonly known as Indian heliotrope. It contains tumorigenic pyrrolizidine alkaloids.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Heliotropium_indicum_at_Mayyil_%282%29.jpg/400px-Heliotropium_indicum_at_Mayyil_%282%29.jpg"
+  },
+  {
+    "plant id": 58,
+    "Scientific name": "Helleborus niger",
+    "Common Name": "Christmas Rose",
+    "Notes": "Also known as Christmas rose. Contains protoanemonin, or ranunculin, which has an acrid taste and can cause burning of the eyes, mouth and throat, oral ulceration, gastroenteritis and hematemesis.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Helleborus_niger_Ende_Februar.JPG/400px-Helleborus_niger_Ende_Februar.JPG"
+  },
+  {
+    "plant id": 59,
+    "Scientific name": "Heracleum mantegazzianum",
+    "Common Name": "Giant Hogweed",
+    "Notes": "Also known as giant hogweed. The sap is phototoxic, causing phytophotodermatitis (severe skin inflammations) when affected skin is exposed to sunlight or to UV rays. Initially the skin becomes red and starts itching. Then blisters form as the reaction continues over 48 hours. They form black or purplish scars, which can last several years. Hospitalization may become necessary.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Heracleum_mantegazzianum_Sausal_-_leaf.jpg/400px-Heracleum_mantegazzianum_Sausal_-_leaf.jpg"
+  },
+  {
+    "plant id": 60,
+    "Scientific name": "Heracleum sosnowskyi",
+    "Common Name": "Sosnowsky's Hogweed",
+    "Notes": "Commonly known as Sosnowsky's Hogweed. Plant has toxic sap and causes skin inflammation on contact.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Heracleum_sosnowskyi20090702_100.jpg/400px-Heracleum_sosnowskyi20090702_100.jpg"
+  },
+  {
+    "plant id": 61,
+    "Scientific name": "Hippomane mancinella",
+    "Common Name": "Manchineel",
+    "Notes": "Commonly known as manchineel. All parts of this tree, including the fruit, contain toxic phorbol esters typical of the Euphorbiaceae plant family. Specifically the tree contains 12-deoxy-5-hydroxyphorbol-6gamma, 7alpha-oxide, hippomanins, mancinellin, sapogenin, phloracetophe -2, 4-dimethylether is present in the leaves, while the fruits possess physostigmine. Contact with the milky white latex produces strong allergic dermatitis. Standing beneath the tree during rain will cause blistering of the skin from even slight contact with this liquid (even a small drop of rain with the milky substance in it will cause the skin to blister). Burning tree parts may cause blindness if the smoke reaches the eyes. The fruit can also be fatal if eaten. Many trees carry a warning sign, while others have been marked with a red \"X\" on the trunk to indicate danger. In the French Antilles the trees are often marked with a painted red band a few feet above the ground. The Caribs used the latex of this tree to poison their arrows and would tie captives to the trunk of the tree, ensuring a slow and painful death. A poultice of arrowroot (Maranta arundinacea) was used by the Arawaks and Ta�no as an antidote against such arrow poisons. The Caribs were also known to poison the water supply of their enemies with the leaves. Spanish explorer Juan Ponce de Le�n was struck by an arrow that had been poisoned with manchineel sap during battle with the Calusa in Florida, dying shortly thereafter.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Hippomane_mancinella%2C_the_Death_Apple_%2811239909065%29.jpg/400px-Hippomane_mancinella%2C_the_Death_Apple_%2811239909065%29.jpg"
+  },
+  {
+    "plant id": 62,
+    "Scientific name": "Hyacinthus orientalis",
+    "Common Name": "Hayacinth",
+    "Notes": "Commonly known as hyacinth. The bulbs are poisonous, causing nausea, vomiting, gasping, convulsions, and possibly death. Even handling the bulbs can cause skin irritation.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Hyacinthus_orientalis0.jpg/440px-Hyacinthus_orientalis0.jpg"
+  },
+  {
+    "plant id": 63,
+    "Scientific name": "Hydrangea genus",
+    "Common Name": "Hydrangea, Hortensia",
+    "Notes": "Known commonly as hydrangea or hortensia. Hydrangeas are moderately toxic if eaten, with all parts of the plant containing cyanogenic glycosides.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Hydrangea_MacrophyllaTaube.JPG/400px-Hydrangea_MacrophyllaTaube.JPG"
+  },
+  {
+    "plant id": 64,
+    "Scientific name": "Hyoscyamus niger",
+    "Common Name": "Henbane",
+    "Notes": "Commonly known as henbane. Seeds and foliage contain hyoscyamine, scopolamine and other tropane alkaloids. Can produce dilated pupils, hallucinations, increased heart rate, convulsions, vomiting, hypertension and ataxia.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Hyoscyamus_niger%2C_Solanaceae.jpg/400px-Hyoscyamus_niger%2C_Solanaceae.jpg"
+  },
+  {
+    "plant id": 65,
+    "Scientific name": "Ilex aquifolium",
+    "Common Name": "European Holly",
+    "Notes": "Commonly known as European holly. The berries cause gastroenteritis, resulting in nausea, vomiting and diarrhea.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Acebo_%22Botanico_de_Madrid%22.jpg/400px-Acebo_%22Botanico_de_Madrid%22.jpg"
+  },
+  {
+    "plant id": 66,
+    "Scientific name": "Iris sibirica",
+    "Common Name": "Siberian Iris, Siberian Flag",
+    "Notes": "Also known as Siberian iris or Siberian flag. Most parts of the plant are poisonous (rhizome and leaves), if mistakenly ingested can cause stomach pains and vomiting. Also handling the plant may cause a skin irritation or an allergic reaction.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Iris_sibirica_in_natural_monument_Novoveska_draha_in_2011_%2818%29.JPG/400px-Iris_sibirica_in_natural_monument_Novoveska_draha_in_2011_%2818%29.JPG"
+  },
+  {
+    "plant id": 67,
+    "Scientific name": "Jacobaea vulgaris",
+    "Common Name": "Ragwort",
+    "Notes": "Commonly known as ragwort. Contains many different alkaloids, including jacobine, jaconine, jacozine, otosenine, retrorsine, seneciphylline, senecionine, and senkirkine. Poisonous to livestock and hence of concern to people who keep horses and cattle. Horses do not normally eat fresh ragwort due to its bitter taste, however it loses this taste when dried, and becomes dangerous in hay. The result, if sufficient quantity is consumed, can be irreversible cirrhosis of the liver. Signs that a horse has been poisoned include yellow mucus membranes, depression, and lack of coordination. The danger is that the toxin can have a cumulative effect; the alkaloid does not actually accumulate in the liver but a breakdown product can damage DNA and progressively kills cells. Jacobaea vulgaris is also theoretically poisonous to humans, although poisoning is unlikely as it is distasteful and not used as a food. However, some sensitive individuals can suffer from an allergic skin reaction after handling the plant because, like many members of the family Compositae, it contains sesquiterpine lactones (which are different from the pyrrolizidine alkaloids responsible for the toxic effects), which can cause compositae dermatitis.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/20150621Jacobaea_vulgaris3.jpg/400px-20150621Jacobaea_vulgaris3.jpg"
+  },
+  {
+    "plant id": 68,
+    "Scientific name": "Kalanchoe delagoensis",
+    "Common Name": "Mother of Millions",
+    "Notes": "Commonly known as mother of millions. Contains bufadienolide cardiac glycosides which can cause cardiac poisoning, particularly in grazing animals.[93] During 1997, 125 head of cattle died after eating mother-of-millions on a travelling stock reserve near Moree, New South Wales, Australia.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Kalanchoe_delagoensis03.JPG/400px-Kalanchoe_delagoensis03.JPG"
+  },
+  {
+    "plant id": 69,
+    "Scientific name": "Kalmia latifolia",
+    "Common Name": "Mountain Laurel",
+    "Notes": "Commonly known as mountain laurel. Contains andromedotoxin and arbutin. The green parts of the plant, flowers, twigs, and pollen are all toxic, and symptoms of toxicity begin to appear about 6 hours following ingestion. Poisoning produces anorexia, repeated swallowing, profuse salivation, depression, uncoordination, vomiting, frequent defecation, watering of the eyes, irregular or difficult breathing, weakness, cardiac distress, convulsions, coma, and eventually death. Autopsy will show gastrointestinal irritation and hemorrhage.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Kalmia_latifolia_species.jpg/400px-Kalmia_latifolia_species.jpg"
+  },
+  {
+    "plant id": 70,
+    "Scientific name": "Laburnum genus",
+    "Common Name": "Golden Chain",
+    "Notes": "Known as golden chain. All parts of the plant and especially the seeds are poisonous and can be lethal if consumed in excess. The main toxin is cytisine, a nicotinic receptor agonist. Symptoms of poisoning may include intense sleepiness, vomiting, excitement, staggering, convulsive movements, slight frothing at the mouth, unequally dilated pupils, coma and death. In some cases, diarrhea is very severe and at times the convulsions are markedly tetanic.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Laburnum_x_watereri_in_Jardin_des_Plantes_de_Paris_02.jpg/400px-Laburnum_x_watereri_in_Jardin_des_Plantes_de_Paris_02.jpg"
+  },
+  {
+    "plant id": 71,
+    "Scientific name": "Lamprocapnos spectabilis",
+    "Common Name": "Bleeting Heart",
+    "Notes": "Known commonly as bleeding heart. Contact with the plant can cause skin irritation in some people from isoquinoline-like alkaloids.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Tr%C3%A4nendes_Herz_5284.JPG/400px-Tr%C3%A4nendes_Herz_5284.JPG"
+  },
+  {
+    "plant id": 72,
+    "Scientific name": "Lantana camara",
+    "Common Name": "Big-Sage, Wild-Sage, Tickberry",
+    "Notes": "Also known as big-sage, wild-sage, and tickberry. The toxicity of L. camara to humans is undetermined, with several studies suggesting that ingesting unripe berries can be toxic to humans. Other studies have found evidence which suggests that ingestion of L. camara fruit poses no risk to humans and are in fact edible when ripe.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Lantana_camara_fruits.jpg/400px-Lantana_camara_fruits.jpg"
+  },
+  {
+    "plant id": 73,
+    "Scientific name": "Ligustrum genus",
+    "Common Name": "Privet",
+    "Notes": "Several species, commonly known as privet. Berries and leaves are poisonous. Berries contain syringin, which causes digestive disturbances and nervous symptoms; can be fatal. Privet is one of several plants which are poisonous to horses. Privet pollen is known to cause asthma and eczema in sufferers. It is banned from sale or cultivation in New Zealand due to the effects of its pollen on asthma sufferers.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Schurenbachhalde_11_ies.jpg/400px-Schurenbachhalde_11_ies.jpg"
+  },
+  {
+    "plant id": 74,
+    "Scientific name": "Lilium genus",
+    "Common Name": "Lily",
+    "Notes": "Commonly known as lily. Most have an unidentified water-soluble toxin found in all parts of the plant. Extremely poisonous, yet attractive, to cats, causing acute renal failure; as few as two petals of the flowers can kill.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Lilium_candidum%2C_Tunisia_-_20110517.jpg/400px-Lilium_candidum%2C_Tunisia_-_20110517.jpg"
+  },
+  {
+    "plant id": 75,
+    "Scientific name": "Lolium temulentum",
+    "Common Name": "Darnel, Poison Ryegrass",
+    "Notes": "Commonly called darnel or poison ryegrass. The seeds and seed heads of this common garden weed may contain the alkaloids temuline and loliine. Some experts also point to the fungus ergot or fungi of the genus Endoconidium, both of which grow on the seed heads of rye grasses, as an additional source of toxicity.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Lolium_temulentum_001.JPG/340px-Lolium_temulentum_001.JPG"
+  },
+  {
+    "plant id": 76,
+    "Scientific name": "Lupinus",
+    "Common Name": "Lupin, Lipine",
+    "Notes": "Commonly known as lupin or lupine. Some varieties have edible seeds. Sweet lupines have less and bitter lupines more of the toxic alkaloids lupinine and sparteine.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/%D0%9B%D1%8E%D0%BF%D0%B8%D0%BD%D1%8B.JPG/400px-%D0%9B%D1%8E%D0%BF%D0%B8%D0%BD%D1%8B.JPG"
+  },
+  {
+    "plant id": 77,
+    "Scientific name": "Mandragora officinarum",
+    "Common Name": "Mandrake",
+    "Notes": "Commonly called mandrake.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Mandragora_autumnalis1432.JPG/400px-Mandragora_autumnalis1432.JPG"
+  },
+  {
+    "plant id": 78,
+    "Scientific name": "Melia azedarach",
+    "Common Name": "Chinaberry Tree, Cape Lilac, Syriga Berrytree",
+    "Notes": "Know commonly as Chinaberry tree, Cape lilac, and syringa berrytree. Fruits are poisonous to humans if eaten in quantity. The toxins are neurotoxins and unidentified resins found mainly in the fruits. The first symptoms of poisoning appear a few hours after ingestion. They may include loss of appetite, vomiting, constipation or diarrhea, bloody faeces, stomach pain, pulmonary congestion, cardiac arrest, rigidity, lack of coordination and general weakness. Death may take place after about 24 hours.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Melia_azedarach_01434.jpg/400px-Melia_azedarach_01434.jpg"
+  },
+  {
+    "plant id": 79,
+    "Scientific name": "Melianthus major",
+    "Common Name": "Honeybush",
+    "Notes": "Also called honeybush. All parts of the plant are toxic.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Melianthus_major_Leaf_Top_3008px.jpg/400px-Melianthus_major_Leaf_Top_3008px.jpg"
+  },
+  {
+    "plant id": 80,
+    "Scientific name": "Menispermum genus",
+    "Common Name": "Moonseed",
+    "Notes": "Commonly known as moonseed. The fruits and seeds are poisonous, causing nausea and vomiting; often fatal.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Menispermum_dauricum_%28Menispermaceae%29_%2835798833585%29.jpg/160px-Menispermum_dauricum_%28Menispermaceae%29_%2835798833585%29.jpg"
+  },
+  {
+    "plant id": 81,
+    "Scientific name": "Mentha pulegium",
+    "Common Name": "Pennyroyal, Pennyrile",
+    "Notes": "Known commonly as pennyroyal or pennyrile. It is toxic to humans and has differing effects dependent on the volume and concentration ingested. The most concentrated and toxic form of the pennyroyal plant is pennyroyal oil. The oil contains 80% to 92% of cyclohexa  pulegone. Pulegone is the molecule in highest concentration, causes a variety of ailments in those who ingest it and is what causes the plant to have its peppermint flavor. Symptoms that may persist after ingesting a small dose (<10 mL) of pennyroyal oil are nausea, vomiting, abdominal pain and dizziness. Larger volumes may result in multiorgan failure that could lead to death.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Mentha_Pulegium_Ecoherbes_Park.jpg/400px-Mentha_Pulegium_Ecoherbes_Park.jpg"
+  },
+  {
+    "plant id": 82,
+    "Scientific name": "Narcissus genus",
+    "Common Name": "Daffodil",
+    "Notes": "Various species and garden cultivars commonly known as daffodil. The bulbs are poisonous and cause nausea, vomiting, and diarrhea; can be fatal. Stems also cause headaches, vomiting, and blurred vision.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Flow-9619_%2816690895504%29.jpg/400px-Flow-9619_%2816690895504%29.jpg"
+  },
+  {
+    "plant id": 83,
+    "Scientific name": "Nerium oleander",
+    "Common Name": "Oleander",
+    "Notes": "Commonly known as oleander. All parts are toxic, the leaves and woody stems in particular. Contains nerioside, oleandroside, saponins and cardiac glycosides. Causes severe digestive upset, heart trouble and contact dermatitis. The smoke of burning oleander can cause reactions in the lungs, and can be fatal.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/20080311_Nerium_Oleander_Flowers.jpg/400px-20080311_Nerium_Oleander_Flowers.jpg"
+  },
+  {
+    "plant id": 84,
+    "Scientific name": "Nicandra physalodes",
+    "Common Name": "Apple-of_peru, Shoo-Fly Plant",
+    "Notes": "Also known as apple-of-Peru and shoo-fly plant. The whole plant is said to be toxic (according to some sources, very toxic) and to be used medicinally as a diuretic, sedative and cough medicine.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Nicandra_physalodes_blackspots_leaf_and_flower.JPG/400px-Nicandra_physalodes_blackspots_leaf_and_flower.JPG"
+  },
+  {
+    "plant id": 85,
+    "Scientific name": "Nicotiana glauca",
+    "Common Name": "Tree Tobacco",
+    "Notes": "Known commonly as tree tobacco. It contains the toxic alkaloid anabasine. Ingestion of the leaves can be fatal.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Nicotiana_glauca_%288694803666%29.jpg/400px-Nicotiana_glauca_%288694803666%29.jpg"
+  },
+  {
+    "plant id": 86,
+    "Scientific name": "Oenanthe crocata",
+    "Common Name": "Hemlock Water Dropwort",
+    "Notes": "Commonly known as hemlock water dropwort. Contains oenanthotoxin. The leaves may be eaten safely by livestock, but the stems and especially the carbohydrate-rich roots are much more poisonous. Animals familiar with eating the leaves may eat the roots when these are exposed during ditch clearance � one root is sufficient to kill a cow, and human fatalities are also known in these circumstances. Scientists at the University of Eastern Piedmont in Italy claimed to have identified this as the plant responsible for producing the sardonic grin, and it is the most-likely candidate for the \"sardonic herb,\" which was a neurotoxic plant used for the ritual killing of elderly people in Phoenician Sardinia. When these people were unable to support themselves, they were intoxicated with this herb and then dropped from a high rock or beaten to death. Criminals were also executed in this way.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Oenanthe_crocata_LeaValley.jpg/400px-Oenanthe_crocata_LeaValley.jpg"
+  },
+  {
+    "plant id": 87,
+    "Scientific name": "Paris quadrifolia",
+    "Common Name": "Herb-Paris",
+    "Notes": "Commonly known as herb-paris. Each plant only produces one blueberry-like berry, which is poisonous, as are other tissues of the plant. Paris quadrifolia poisonings are rare, because the plant's solitary berry and its repulsive taste make it difficult to mistake it for a blueberry.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Paris_quadrifolia_PID1636-1.jpg/400px-Paris_quadrifolia_PID1636-1.jpg"
+  },
+  {
+    "plant id": 88,
+    "Scientific name": "Passiflora caerulea",
+    "Common Name": "Blue Passion Flower, Common Passion Flower",
+    "Notes": "Also known as the blue passion flower or the common passion flower. The leaves contain cyanogenic glycoside, which breaks down into cyanide.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Passiflora_c.jpg/400px-Passiflora_c.jpg"
+  },
+  {
+    "plant id": 89,
+    "Scientific name": "Peucedanum galbanum",
+    "Common Name": "Blister Bush",
+    "Notes": "Commonly known as blister bush. All parts are poisonous, and contact causes painful blistering that is intensified with exposure to sunlight.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Peucedanum_galbanum_Blister_bush_Table_mt_%281%29.JPG/400px-Peucedanum_galbanum_Blister_bush_Table_mt_%281%29.JPG"
+  },
+  {
+    "plant id": 90,
+    "Scientific name": "Phoradendron genus",
+    "Common Name": "American Mistletoe",
+    "Notes": "Commonly known as American mistletoe; see also the related genus Viscum). Mistletoe is a common hemiparasite of trees and shrubs. Toxicity varies by species, but all parts of the plant, especially the leaves and berries, contain an array of dangerous chemicals, including proteins called phoratoxins and toxic alkaloids. Symptoms are very similar to those produced by Viscum species and may include acute gastrointestinal discomfort, diarrhea, weak pulse and/or slow heart rate, and even seizures; it is rarely lethal to adult humans, however, and many wild animals are adapted to eating its fruit.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Mistletoe-0243.jpg/400px-Mistletoe-0243.jpg"
+  },
+  {
+    "plant id": 91,
+    "Scientific name": "Physostigma venenosum",
+    "Common Name": "Calabar Bean, Ordeal Beans",
+    "Notes": "Commonly known as calabar bean and also as ordeal beans due to their former use in trials by ordeal). The toxin in the seeds is the parasympathomimetic alkaloid physostigmine, a reversible cholinesterase inhibitor. Symptoms of poisoning include copious saliva, nausea, vomiting, diarrhea, anorexia, dizziness, headache, stomach pain, sweating, dyspepsia and seizures., and can lead to cholinergic syndrome or \"SLUDGE syndrome\". Medicinal uses of physostigmine include the treatment of myasthenia gravis, glaucoma, Alzheimer's disease and delayed gastric emptying.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Physostigma_venenosum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-237.jpg/440px-Physostigma_venenosum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-237.jpg"
+  },
+  {
+    "plant id": 92,
+    "Scientific name": "Phytolacca genus",
+    "Common Name": "Pokeweed",
+    "Notes": "Commonly known as pokeweed. Leaves, berries and roots contain phytolaccatoxin and phytolaccigenin. The toxicity of young leaves can be reduced with repeated boiling and draining. Ingestion of poisonous parts of the plant may cause severe stomach cramping, persistent diarrhea, nausea, vomiting (sometimes bloody), slow and difficult breathing, weakness, spasms, hypertension, severe convulsions, and death.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Pokeberries.png/400px-Pokeberries.png"
+  },
+  {
+    "plant id": 93,
+    "Scientific name": "Phytolacca americana",
+    "Common Name": "Pokeweed",
+    "Notes": "Known commonly as pokeweed. All parts of the plant are toxic and pose risks to human and mammalian health. The poisonous principles are found in highest concentrations in the rootstock, then in leaves and stems and then in the ripe fruit. The plant generally gets more toxic with maturity, with the exception of the berries (which have significant toxicity even while green).",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Phytolacca_americana_-_Pokeweed.jpg/400px-Phytolacca_americana_-_Pokeweed.jpg"
+  },
+  {
+    "plant id": 94,
+    "Scientific name": "Pieris japonica",
+    "Common Name": "Japanese Pieris",
+    "Notes": "Also known as Japanese pieris. The plant is poisonous if consumed by people or animals.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Pieris_japonica_%281%29.jpg/400px-Pieris_japonica_%281%29.jpg"
+  },
+  {
+    "plant id": 95,
+    "Scientific name": "Plumeria genus",
+    "Common Name": "Frangipani",
+    "Notes": "Commonly known as frangipani. Contact with the milky latex may irritate eyes and skin.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Plumeria_au_jardin_de_Bahia_%C3%A0_Acre.jpg/400px-Plumeria_au_jardin_de_Bahia_%C3%A0_Acre.jpg"
+  },
+  {
+    "plant id": 96,
+    "Scientific name": "Podophyllum peltatum",
+    "Common Name": "Mayapple",
+    "Notes": "Commonly known as mayapple. Green portions of the plant, unripe fruit, and especially the rhizome contain the non-alkaloid toxin podophyllotoxin, which causes diarrhea and severe digestive upset.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/May_Apple%2C_Thunder_Ridge_Wilderness.jpg/400px-May_Apple%2C_Thunder_Ridge_Wilderness.jpg"
+  },
+  {
+    "plant id": 97,
+    "Scientific name": "Prunus laurocerasus",
+    "Common Name": "Cherry Laurel, Common Laurel, English Laurel",
+    "Notes": "Also known as cherry laurel, common laurel, and sometimes English laurel. Leaves, fruit and seed may cause severe discomfort to humans if ingested. The seeds contained within the cherries are poisonous like the rest of the plant, containing cyanogenic glycosides and amygdalin. This chemical composition is what gives the smell of almonds when the leaves are crushed. Laurel water, a distillation made from the plant, contains prussic acid and other compounds and is toxic.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Laurierkers_in_bloei.jpg/400px-Laurierkers_in_bloei.jpg"
+  },
+  {
+    "plant id": 98,
+    "Scientific name": "Prunus padus",
+    "Common Name": "Bird Cherry, Hackberry, Mayday Tree",
+    "Notes": "Known as bird cherry, hackberry, or Mayday tree. The glycosides prulaurasin and amygdalin, which can be poisonous, are present in some parts of P.�padus, including the leaves, stems and fruits.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/20130429Traubenkirsche_Hockenheimer_Rheinbogen3.jpg/400px-20130429Traubenkirsche_Hockenheimer_Rheinbogen3.jpg"
+  },
+  {
+    "plant id": 99,
+    "Scientific name": "Pteridium aquilinum",
+    "Common Name": "Bracken",
+    "Notes": "Commonly known as bracken. Carcinogenic to humans and animals such as mice, rats, horses and cattle when ingested. The carcinogenic compound is ptaquiloside or PTQ, which can leach from the plant into the water supply, which may explain an increase in the incidence of gastric and oesophageal cancers in humans in bracken-rich areas.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Ferns_in_the_New_Forest_%281250985294%29.jpg/400px-Ferns_in_the_New_Forest_%281250985294%29.jpg"
+  },
+  {
+    "plant id": 100,
+    "Scientific name": "Pulsatilla cernua",
+    "Common Name": "Pasque Flower, Wind Flower, Prarie Crocus, Meadow Anemone",
+    "Notes": "Common names include pasque flower, wind flower, prairie crocus, meadow anemone. It is highly toxic, and produces cardiogenic toxins and oxytoxins which slow the heart in humans. Excess use can lead to diarrhea, vomiting and convulsions, hypotension and coma.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Pulsatilla_cernua_1.JPG/400px-Pulsatilla_cernua_1.JPG"
+  },
+  {
+    "plant id": 101,
+    "Scientific name": "Quercus genus",
+    "Common Name": "Oak",
+    "Notes": "Several species, commonly known as oak. The leaves and acorns of oak species are poisonous in large amounts to humans and livestock, including cattle, horses, sheep and goats, but not pigs. Poisoning is caused by the toxin tannic acid, which causes gastroenteritis, heart trouble, contact dermatitis and kidney damage. Symptoms of poisoning include lack of appetite, depression, constipation, diarrhea (which may contain blood), blood in urine, and colic; it is rarely fatal, however, and in fact after proper processing acorns are consumed as a staple food in many parts of the world.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Quercus_chrysolepis_acorns.jpg/400px-Quercus_chrysolepis_acorns.jpg"
+  },
+  {
+    "plant id": 102,
+    "Scientific name": "Rhamnus cathartica",
+    "Common Name": "Buckthorn",
+    "Notes": "Commonly called buckthorn. The seeds and leaves are mildly poisonous for people and animals, but are readily eaten by birds.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Rhamnus_cathartica_%288023754928%29.jpg/400px-Rhamnus_cathartica_%288023754928%29.jpg"
+  },
+  {
+    "plant id": 103,
+    "Scientific name": "Rhododendron genus",
+    "Common Name": "Azalea",
+    "Notes": "Several species including those known as azalea. All parts are poisonous and cause nausea, vomiting, depression, breathing difficulties, and coma, though it is rarely fatal. The primary source of toxicity is a group of closely related compounds called grayanotoxins, which block sodium ion channels in cellular membranes and prevent electrical repolarization during action potentials. Honey made from the nectar of Rhododendron plants may contain dangerous concentrations of grayanotoxins, and has been historically used as a poison and in alcoholic drinks.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/0_Rhododendron_-_Celles_%28Hainaut%29_3.JPG/400px-0_Rhododendron_-_Celles_%28Hainaut%29_3.JPG"
+  },
+  {
+    "plant id": 104,
+    "Scientific name": "Rhododendron ferrugineum",
+    "Common Name": "Alpenrose, Snow-Rose, Rusty-Leaved Alpenrose",
+    "Notes": "Commonly called alpenrose, snow-rose or rusty-leaved alpenrose. It is moderately toxic, containing arbutin, arecoline and rhodoxanthin, and can cause vomiting, and difficulties of the digestive, nervous, respiratory and circulatory systems.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/RHODODENDRON_FERRUGINEUM_-_CADINELL_-_IB-801_%28Neret%29.JPG/400px-RHODODENDRON_FERRUGINEUM_-_CADINELL_-_IB-801_%28Neret%29.JPG"
+  },
+  {
+    "plant id": 105,
+    "Scientific name": "Rhododendron luteum",
+    "Common Name": "Yellow Azalea, Honeysuckle Azalea",
+    "Notes": "Also known as yellow azalea or honeysuckle azalea. Despite the sweet perfume of the flowers, the nectar is toxic, containing grayanotoxin; records of poisoning of people eating the honey date back to the 4th century BC in Classical Greece.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Azalea_Flower_RHS_Wisley_Garden_Surrey_UK.jpg/400px-Azalea_Flower_RHS_Wisley_Garden_Surrey_UK.jpg"
+  },
+  {
+    "plant id": 106,
+    "Scientific name": "Rhododendron tomentosum",
+    "Common Name": "Marsh Laborador Tea, Wild Rosemary",
+    "Notes": "Commonly known as marsh Labrador tea or wild rosemary. All parts of the plant contain poisonous terpenes that affect the central nervous system. First symptoms of overdose are dizziness and disturbances in movement, followed by spasms, nausea, and unconsciousness. The mere smell of the plant may cause headache to some people.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Sumpfporst_%28Liebig%29.jpg/400px-Sumpfporst_%28Liebig%29.jpg"
+  },
+  {
+    "plant id": 107,
+    "Scientific name": "Rhus genus",
+    "Common Name": "African Sumac",
+    "Notes": "Certain species commonly known as African sumac. Formerly grouped with poison ivy and the rest of the Toxicodendron genus, all parts of this tree contain low levels of a highly irritating oil with urushiol. Skin reactions can include blisters and rashes. The oil spreads readily to clothes and back again, and has a very long life. Infections can follow scratching. As urushiol is not a poison but an allergen, it will not affect certain people. The smoke of burning Rhus lancia can cause reactions in the lungs, and can be fatal.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/SumacFruit.JPG/440px-SumacFruit.JPG"
+  },
+  {
+    "plant id": 108,
+    "Scientific name": "Ricinus communis",
+    "Common Name": "Castor Oil Plant, Castor Bean, Palma Christi",
+    "Notes": "Commonly known as castor oil plant, castor bean and Palma Christi. The seeds contain ricin, an extremely toxic and water-soluble ribosome-inactivating protein; it is also present in lower concentrations in other parts of the plant. Also present are ricinine, an alkaloid, and an irritant oil. According to the 2007 edition of the Guinness Book of World Records, the castor oil plant is the most poisonous in the world, though its cousin abrin, found in the seeds of the jequirity plant, is arguably more lethal. Castor oil, long used as a laxative, muscle rub, and in cosmetics, is made from the seeds, but the ricin protein is denatured during processing. Ricin irreversibly inhibits the ribosome, the molecular machine responsible for producing proteins in cells. The LD50 in adults is only about 22 ?g/kg when injected or inhaled; ingested ricin is much less toxic due to the digestive activity of peptidases, although a dose of 20 to 30�mg/kg, or about 4 to 8 seeds, can still cause death via this route. Reports of actual poisoning are relatively rare. If ingested, symptoms may be delayed by up to 36 hours but commonly begin within 2�4 hours. These include a burning sensation in the mouth and throat, abdominal pain, purging and bloody diarrhea. Within several days there is severe dehydration, a drop in blood pressure and a decrease in urine. Unless treated, death can be expected to occur within 3�5 days; if victims have not succumbed after this time, they often recover. Toxicity varies among animal species: 4 seeds will kill a rabbit, 5 a sheep, 6 an ox or horse, 7 a pig, and 11 a dog. Poisoning occurs when animals ingest broken seeds or break the seed by chewing; intact seeds may pass through the digestive tract without releasing the toxin. Ducks have shown substantial resistance to the seeds: it takes an average of 80 to kill them. It was famously used to assassinate Bulgarian dissident Georgi Markov in 1978.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Castor_Oil_Plant_-_Flickr_-_treegrow.jpg/400px-Castor_Oil_Plant_-_Flickr_-_treegrow.jpg"
+  },
+  {
+    "plant id": 109,
+    "Scientific name": "Robinia genus",
+    "Common Name": "Black Locust, False Acacia",
+    "Notes": "Also known as black locust and false acacia. All species produce toxic lectins. The poison is a complex mix of lectins with the highest concentration in the fruit and seed, followed by the root bark and the flower. There is little poison in the leaf. The lectins, generally called robin are less toxic than those of e.g. Abrus (abrin) or Ricinus (ricin), and in non-fatal cases the toxic effects tend to be temporary.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Gew%C3%B6hnliche_Robinie.JPG/400px-Gew%C3%B6hnliche_Robinie.JPG"
+  },
+  {
+    "plant id": 110,
+    "Scientific name": "Sambucus genus",
+    "Common Name": "Elder, Elderberry",
+    "Notes": "Commonly known as elder or elderberry. The roots, twigs, leaves, and unripe fruit are considered poisonous and cause nausea and digestive upset. Ripe berries must be cooked before consumption.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/20140421Sambucus_racemosa2.jpg/400px-20140421Sambucus_racemosa2.jpg"
+  },
+  {
+    "plant id": 111,
+    "Scientific name": "Sanguinaria canadensis",
+    "Common Name": "Bloodroot",
+    "Notes": "Commonly known as bloodroot. The rhizome contains morphine-like benzylisoquinoline alkaloids, primarily the toxin sanguinarine. Sanguinarine kills animal cells by blocking the action of Na+/K+-ATPase transmembrane proteins. As a result, applying S. canadensis to the skin may destroy tissue and lead to the formation of a large scab, called an eschar. Although applying escharotic agents, including S. canadensis, to the skin is sometimes suggested as a home treatment for skin cancer, these attempts can be severely disfiguring, as well as unsuccessful. Case reports have shown that in such instances tumor has recurred and/or metastasized. The United States Food and Drug Administration (FDA) has approved the inclusion of sanguinarine in toothpastes as an antibacterial or anti-plaque agent, although it is believed that this use may cause leukoplakia, a premalignant oral lesion. The safe level of sanguinarine in such products is subject to regulation and debate. S. canadensis extracts have also been promoted by some supplement companies as a treatment or cure for cancer, but the FDA has listed some of these products among its \"187 Fake Cancer 'Cures' Consumers Should Avoid\". Bloodroot is a popular red natural dye used by Native American artists, especially among southeastern rivercane basketmakers. However, in spite of supposed curative properties and historical use by Native Americans as an emetic, due to its toxicity internal use is not advisable (sanguinarine has an LD50 of only 18�mg per kg body weight).",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bloodroot_%28Sanguinaria_canadensis%29_-_Flickr_-_Jay_Sturner.jpg/400px-Bloodroot_%28Sanguinaria_canadensis%29_-_Flickr_-_Jay_Sturner.jpg"
+  },
+  {
+    "plant id": 112,
+    "Scientific name": "Scopolia carniolica",
+    "Common Name": "European Scopolia",
+    "Notes": "Known as European scopolia or henbane bell. Its toxicity derives from its high levels of tropane alkaloids, particularly atropine. The quantity of atropine is the highest in the root.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Scopolia_carniolica_2016-04-19_7981b.JPG/400px-Scopolia_carniolica_2016-04-19_7981b.JPG"
+  },
+  {
+    "plant id": 113,
+    "Scientific name": "Solanum dulcamara",
+    "Common Name": "Bittersweet Nightshade",
+    "Notes": "Commonly known as bittersweet nightshade. All parts are poisonous, containing solanine and causing fatigue, paralysis, convulsions, and diarrhea. Rarely fatal.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/20140819Solanum_dulcamara2.jpg/400px-20140819Solanum_dulcamara2.jpg"
+  },
+  {
+    "plant id": 114,
+    "Scientific name": "Solanum nigrum",
+    "Common Name": "Black Nightshade",
+    "Notes": "Commonly known as black nightshade. All parts of the plant except the ripe fruit contain the toxic glycoalkaloid solanine. Solanine poisoning is primarily displayed by gastrointestinal and neurological disorders. Symptoms include nausea, diarrhea, vomiting, stomach cramps, burning of the throat, cardiac dysrhythmia, headache and dizziness. In more severe cases, hallucinations, loss of sensation, paralysis, fever, jaundice, dilated pupils and hypothermia can result. In large quantities, solanine poisoning can be fatal.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Black_Nightshade_-_Flickr_-_treegrow_%282%29.jpg/400px-Black_Nightshade_-_Flickr_-_treegrow_%282%29.jpg"
+  },
+  {
+    "plant id": 115,
+    "Scientific name": "Solanum pseudocapsicum",
+    "Common Name": "Jerusalem Cherry, Madeira Winter Cherry, Winter Cherry",
+    "Notes": "Commonly known as Jerusalem cherry, Madeira winter cherry and winter cherry. All parts, especially the berries, are poisonous, causing nausea and vomiting. It is occasionally fatal, especially to children.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Solanum_pseudocapsicum2.jpg/400px-Solanum_pseudocapsicum2.jpg"
+  },
+  {
+    "plant id": 116,
+    "Scientific name": "Sophora secundiflora",
+    "Common Name": "Mescal Bean, Texas Mountain Laurel",
+    "Notes": "Commonly known as mescal bean and Texas mountain laurel.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Calia_secundiflora_pods.jpg/400px-Calia_secundiflora_pods.jpg"
+  },
+  {
+    "plant id": 117,
+    "Scientific name": "Strophanthus gratus",
+    "Common Name": " ",
+    "Notes": "The ripe seeds of this African plant contain ouabain, a potent cardiac glycoside that, when sufficiently concentrated, can induce cardiac arrest by binding to and inhibiting the action of the sodium-potassium pump and thereby drastically slowing the contraction of cardiac muscle cells. It was once used medicinally in small doses to treat congestive heart failure and other heart conditions, but has largely been replaced by the structurally related digoxin. Extracts from Strophanthus gratus and the bark of Acokanthera species have long been used by Somali tribesmen to poison hunting arrows; if the concentration is high enough, an arrow poisoned with ouabain can kill an adult hippopotamus.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Strophanthus_gratus1.JPG/400px-Strophanthus_gratus1.JPG"
+  },
+  {
+    "plant id": 118,
+    "Scientific name": "Strychnos nux-vomica",
+    "Common Name": "Strychnine Tree",
+    "Notes": "Commonly known as the strychnine tree. The seeds usually contain about 1.5% strychnine, an extremely bitter and deadly alkaloid. This substance throws a human into intense muscle convulsions and usually kills within three hours. The bark of the tree may also contain brucine, another dangerous chemical.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Strychnos_nux-vomica_%286941721082%29.jpg/400px-Strychnos_nux-vomica_%286941721082%29.jpg"
+  },
+  {
+    "plant id": 119,
+    "Scientific name": "Taxus baccata",
+    "Common Name": "English Yew",
+    "Notes": "Commonly known as English yew, common yew and graveyard tree. Nearly all parts contain toxic taxanes (except the red, fleshy, and slightly sweet aril surrounding the toxic seeds). The seeds themselves are particularly toxic if chewed. Several people have committed suicide by ingesting leaves and seeds, including Catuvolcus, king of a tribe in what is now Belgium.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Yew_Berries.jpg/400px-Yew_Berries.jpg"
+  },
+  {
+    "plant id": 120,
+    "Scientific name": "Toxicodendron genus",
+    "Common Name": "Poison Ivy",
+    "Notes": "Several species, including Toxicodendron radicans commonly known as poison ivy, Toxicodendron diversilobum commonly known as poison-oak, and Toxicodendron vernix commonly known as poison sumac. All parts of these plants contain a highly irritating oil with urushiol. Skin reactions can include blisters and rashes. The oil spreads readily to clothes and back again, and has a very long life. Infections can follow scratching. Despite the common names, urushiol is actually not a poison but an allergen, and because of this it will not affect certain people. The smoke of burning poison ivy can cause reactions in the lungs, and can be fatal. The allergic reaction caused by contact with poison ivy afflicts more than 70% of the human population, with as many as 350,000 cases reported annually in the United States alone",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Toxicodendron_radicans%2C_leaves.jpg/400px-Toxicodendron_radicans%2C_leaves.jpg"
+  },
+  {
+    "plant id": 121,
+    "Scientific name": "Urtica ferox",
+    "Common Name": "Ongaonga",
+    "Notes": "Commonly known as ongaonga. Even the lightest touch can result in a painful sting that lasts several days.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Ongaonga-Karori.jpg/400px-Ongaonga-Karori.jpg"
+  },
+  {
+    "plant id": 122,
+    "Scientific name": "Veratrum genus",
+    "Common Name": "False Hellebore, Corn Lily",
+    "Notes": "Commonly known as false hellebore and corn lily. Several species, containing highly toxic steroidal alkaloids (e.g. veratridine) that activate sodium ion channels and cause rapid cardiac failure and death if ingested. All parts of the plant are poisonous, with the root and rhizomes being the most toxic. Symptoms typically occur between 30 minutes and 4 hours after ingestion and include nausea and vomiting, abdominal pain, numbness, headache, sweating, muscle weakness, bradycardia, hypotension, cardiac arrhythmia, and seizures. Treatment for poisoning includes gastrointestinal decontamination with activated charcoal followed by supportive care including fluid replacement, antiemetics for persistent nausea and vomiting, atropine for treatment of bradycardia, and vasopressors for the treatment of hypotension. Native Americans used the juice pressed from the roots to poison arrows before combat. The dried powdered root of this plant was also used as an insecticide. The plants' teratogenic properties and ability to induce severe birth defects were well known to Native Americans, although they also used minute amounts of the winter-harvested root (combined with Salvia dorii to potentiate its effects and reduce the toxicity of the herb) to treat cancerous tumors. The toxic steroidal alkaloids are produced only when the plants are in active growth, so herbalists and Native Americans who used this plant for medicinal purposes harvested the roots during the winter months when the levels of toxic constituents were at their lowest. The roots of V. nigrum and V. schindleri have been used in Chinese herbalism (where plants of this genus are known as \"li lu\" (??). Li lu is used internally as a powerful emetic of last resort, and topically to kill external parasites, treat tinea and scabies, and stop itching. However some herbalists refuse to prescribe li lu internally, citing the extreme difficulty in preparing a safe and effective dosage, and that death has occurred at a dosage of 0.6�grams. During the 1930s Veratrum extracts were investigated in the treatment of high blood pressure in humans. However patients often suffered side effects due to the narrow therapeutic index of these products. Due to its toxicity, the use of Veratrum as a treatment for high blood pressure in humans was discontinued.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Blad_van_Veratrum_nigrum.jpg/400px-Blad_van_Veratrum_nigrum.jpg"
+  },
+  {
+    "plant id": 123,
+    "Scientific name": "Vernicia fordii",
+    "Common Name": "Tung tree",
+    "Notes": "Known as the tung tree. It is poisonous in all of its parts, including the fruit and the seeds, although some parts of the tree have been used for medicinal purposes in the past. According to one university website, just one seed from the fruit can be fatal, and other symptoms may include vomiting, diarrhea, and slowed breathing. The leaves can also give a rash similar to that from poison ivy.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Vernicia_fordii8.jpg/400px-Vernicia_fordii8.jpg"
+  },
+  {
+    "plant id": 124,
+    "Scientific name": "Viscum genus",
+    "Common Name": "European Mistletoe",
+    "Notes": "Commonly known as European mistletoe; see also the related genus Phoradendron). Mistletoe is a common hemiparasite of trees and shrubs. Toxicity varies by species, but all parts of the plant, especially the leaves and berries, contain an array of toxic chemicals, including several different viscotoxins, the alkaloid tyramine, and a ribosome-inactivating lectin called viscumin. Symptoms may include acute gastrointestinal discomfort, diarrhea, weak pulse and/or slow heart rate, and even seizures; it is rarely lethal to adult humans, however, and many wild animals are adapted to eating its fruit.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Mistletoe_with_berries.jpg/400px-Mistletoe_with_berries.jpg"
+  },
+  {
+    "plant id": 125,
+    "Scientific name": "Voacanga africana",
+    "Common Name": " ",
+    "Notes": "The bark and seeds of this tropical tree contain a complex mixture of iboga alkaloids, including voacangine and voacamine. These compounds have been variously used as stimulants, psychedelic drugs, and poisons.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Voacanga_africana.jpg/440px-Voacanga_africana.jpg"
+  },
+  {
+    "plant id": 126,
+    "Scientific name": "Wisteria sinensis",
+    "Common Name": "Chinese Wisteria",
+    "Notes": "Also known as Chinese wisteria. All parts of the plant contain a glycoside called wisterin which is toxic if ingested and may cause nausea, vomiting, stomach pains, and diarrhea. Wisterias have caused poisoning in children of many countries, producing mild to severe gastroenteritis.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Glycine_grappe_FR_2012.jpg/400px-Glycine_grappe_FR_2012.jpg"
+  },
+  {
+    "plant id": 127,
+    "Scientific name": "Xanthium genus",
+    "Common Name": "Cocklebur",
+    "Notes": "Several species commonly known as cocklebur. The common cocklebur (Xanthium strumarium), a native of North America, can be poisonous to livestock, including horses, cattle, and sheep. Some domestic animals will avoid consuming the plant if other forage is present, but less discriminating animals, such as pigs, will consume the plants and then sicken and die. The seedlings and seeds are the most toxic parts of the plants. Symptoms usually occur within a few hours, producing unsteadiness and weakness, depression, nausea and vomiting, twisting of the neck muscles, rapid and weak pulse, difficulty breathing, and eventually death. Xanthium has also been used for its medicinal properties and for making yellow dye, as indicated by its name (Greek xanthos = 'yellow').",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Ghaagara_%28Marathi-_%E0%A4%98%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BE%29_%282958242609%29.jpg/400px-Ghaagara_%28Marathi-_%E0%A4%98%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BE%29_%282958242609%29.jpg"
+  },
+  {
+    "plant id": 128,
+    "Scientific name": "Zantedeschia aethiopica",
+    "Common Name": "Calla lily, Arum Lily",
+    "Notes": "Known as calla lily or arum lily. All parts of the plant are toxic, containing calcium oxalate, which induces irritation and swelling of the mouth and throat, acute vomiting and diarrhea. Can be fatal.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Funchal_-_Zantedeschia_aethiopica_IMG_1904.JPG/400px-Funchal_-_Zantedeschia_aethiopica_IMG_1904.JPG"
+  },
+  {
+    "plant id": 129,
+    "Scientific name": "Zigadenus glaberrimus",
+    "Common Name": "Death Camas",
+    "Notes": "Commonly known as death camas. All parts of Z. glaberrimus are toxic, due to the presence of alkaloids. This or related species have caused human fatalities.",
+    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/ZigadenusGlaberrimus.jpg/440px-ZigadenusGlaberrimus.jpg"
+  }
+]

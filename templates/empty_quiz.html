@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+{% block title %}Search{% endblock %}
+{% block head %}
+    {{ super() }}
+    
+    
+    <script type="text/javascript" src="{{ url_for('static', filename = 'build_quiz.js') }}"></script>
+    
+    <!--<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='search_plants.css') }}">-->
+
+
+{% endblock %}
+
+{% block content %}
+<br>
+<div class="row page">
+    <h1>Sorry, this quiz does not exist</h1>
+            
+</div>
+
+{% endblock %}

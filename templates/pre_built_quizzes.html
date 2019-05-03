@@ -1,0 +1,99 @@
+{% extends "index.html" %}
+{% block title %}Your quizzes{% endblock %}
+{% block head %}
+    {{ super() }}
+
+
+    <script type="text/javascript" src="{{ url_for('static', filename = 'pre_built_quizzes.js') }}"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+
+
+    <style>
+        .page{
+            padding-top: 10px;
+            background-color: white;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .quizWidget {
+            height: 100px;
+        }
+
+        .plantImage { 
+            max-width:100%;
+            max-height: 100px;
+        }
+
+        .quizName{
+            font-size: 3rem;
+        }
+
+        .emptyList {
+            font-size: 2rem;
+            font-weight: 300;
+        }
+        .btn-circle {
+        width: 60px;
+        height: 60px;
+        padding: 6px 0px;
+        border-radius: 30px;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.42857;
+        margin-top: 10px;
+        }
+
+        #quizDeleteName{
+            text-align: center;
+            font-weight: bold;
+        }
+
+
+    </style>
+
+    <script>
+        var quizzes = {{quizzes|tojson}}
+    </script>
+
+
+
+
+{% endblock %}
+
+{% block content %}
+<br>
+<div class="row page">
+    <div class= "col">
+        <div class="row">
+            <div class="col">
+                <h1>Your Quizzes</h1>
+            </div> 
+        </div> 
+        <hr>
+        <div class="row">
+            <div class="col" id="quizzesBox">
+            </div> 
+        </div> 
+    </div>
+</div>
+
+
+
+<div style="display: none;" id="delete">
+    <h2>Are you sure you want to delete:</h2>
+    <h4 id="quizDeleteName"></h4>
+    <br>
+    <div id="lightboxButtonRow" class="row">
+            <div class="col-6">
+                <button type="button" class="btn btn-danger btn-sm btn-block" id="deleteQuiz">Yes, goodbye</button>
+            </div>
+            <div class="col-6">
+                <button type="button" class="btn btn-primary btn-sm btn-block" id="dontDelete">Wait, no!</button>
+            </div>
+    </div>       
+            
+</div>
+
+{% endblock %}
