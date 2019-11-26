@@ -39,12 +39,12 @@
     "Scientific name": "Aesculus hippocastanum",
     "Common Name": "Horse-Chestnut",
     "Notes": "Commonly known as horse-chestnut. All parts of the plant are poisonous, causing nausea, muscle twitches, and sometimes paralysis.",
-    "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Horse_chestnut_flowers_in_Brodalen_4.jpg/440px-Horse_chestnut_flowers_in_Brodalen_4.jpg"
+    "Photo": "https://cdn.shopify.com/s/files/1/0557/0657/products/Horse-Chestnut-Tree_grande.jpg?v=1553043103"
   },
   {
     "plant id": 7,
     "Scientific name": "Agave genus",
-    "Common Name": " ",
+    "Common Name": "Agave",
     "Notes": "The juice of a number of species causes acute contact dermatitis, with blistering lasting several weeks and recurring itching for several years thereafter.",
     "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Agave_americana_R01.jpg/440px-Agave_americana_R01.jpg"
   },
@@ -184,7 +184,7 @@
   {
     "plant id": 27,
     "Scientific name": "Cleistanthus collinus",
-    "Common Name": " ",
+    "Common Name": "Karra",
     "Notes": "Ingestion of its leaves or a dicoction of its leaves causes hypokalemia (kaliuresis and cardiac arrhythmias), metabolic acidosis, hypotension and hypoxia.",
     "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Cleistanthus_collinus_%28Garari%29_in_Narsapur_forest%2C_AP_W_IMG_0165.jpg/400px-Cleistanthus_collinus_%28Garari%29_in_Narsapur_forest%2C_AP_W_IMG_0165.jpg"
   },
@@ -247,7 +247,7 @@
   {
     "plant id": 36,
     "Scientific name": "Daphne genus",
-    "Common Name": " ",
+    "Common Name": "Daphne",
     "Notes": "The berries (either red or yellow) are poisonous, causing burns to mouth and digestive tract, followed by coma; often fatal.",
     "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Daphne_mezereum_003.JPG/400px-Daphne_mezereum_003.JPG"
   },
@@ -268,7 +268,7 @@
   {
     "plant id": 39,
     "Scientific name": "Deathcamas",
-    "Common Name": " ",
+    "Common Name": "Death Camas",
     "Notes": "Various genera in the family Melanthieae have species whose common names include \"deathcamas\", including Amianthium, Anticlea, Stenanthium, Toxicoscordion and Zigadenus. All parts of these plants are toxic, due to the presence of alkaloids. Grazing animals, such as sheep and cattle, may be affected and human fatalities have occurred.",
     "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Zigadenus_venenosus_var_venenosus_1.jpg/400px-Zigadenus_venenosus_var_venenosus_1.jpg"
   },
@@ -814,7 +814,7 @@
   {
     "plant id": 117,
     "Scientific name": "Strophanthus gratus",
-    "Common Name": " ",
+    "Common Name": "Strophanthus",
     "Notes": "The ripe seeds of this African plant contain ouabain, a potent cardiac glycoside that, when sufficiently concentrated, can induce cardiac arrest by binding to and inhibiting the action of the sodium-potassium pump and thereby drastically slowing the contraction of cardiac muscle cells. It was once used medicinally in small doses to treat congestive heart failure and other heart conditions, but has largely been replaced by the structurally related digoxin. Extracts from Strophanthus gratus and the bark of Acokanthera species have long been used by Somali tribesmen to poison hunting arrows; if the concentration is high enough, an arrow poisoned with ouabain can kill an adult hippopotamus.",
     "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Strophanthus_gratus1.JPG/400px-Strophanthus_gratus1.JPG"
   },
@@ -870,7 +870,7 @@
   {
     "plant id": 125,
     "Scientific name": "Voacanga africana",
-    "Common Name": " ",
+    "Common Name": "Dogbane",
     "Notes": "The bark and seeds of this tropical tree contain a complex mixture of iboga alkaloids, including voacangine and voacamine. These compounds have been variously used as stimulants, psychedelic drugs, and poisons.",
     "Photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Voacanga_africana.jpg/440px-Voacanga_africana.jpg"
   },

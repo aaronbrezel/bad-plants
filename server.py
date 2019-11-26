@@ -38,6 +38,22 @@ def edit_quiz(quiz_id):
         return render_template("edit.html", plants=plants, quiz=quiz)
     except:
         return render_template("empty_quiz.html")
+
+@app.route("/make_the_edit", methods=['GET', 'POST'])
+def make_the_edit():
+    
+    json_data = request.get_json()
+    quiz_id = json_data["quiz_id"]
+    quiz_name = json_data["quizName"]
+    thePlants = json_data["thePlants"]
+    
+    quizzes[str(quiz_id)] = {
+        "quiz_id": quiz_id,
+        "quiz_name": quiz_name,
+        "quiz_plants": thePlants
+    }
+
+    return jsonify(data = quiz_id)
     
 @app.route('/add_quiz', methods=['GET', 'POST'])
 def add_quiz():
@@ -63,6 +79,7 @@ def add_quiz():
     #print(quizzes)
 
     return jsonify(data = counter)
+
 
 @app.route('/pre_fabs')
 def pre_fab():
@@ -90,14 +107,23 @@ def learn(quiz_id):
         return render_template("empty_quiz.html")
 
 
-@app.route('/quiz/<quiz_id>')
+@app.route('/quiz/<quiz_id>/scinames')
 def build_quiz(quiz_id):
     try:
         quiz = quizzes[str(quiz_id)]
-        return render_template("build_quiz.html", quiz = quiz)
+        print(quiz)
+        return render_template("build_quiz.html", quiz = quiz, quizType = "scinames")
     except:
         return render_template("empty_quiz.html")
 
+@app.route('/quiz/<quiz_id>/comnames')
+def build_quiz2(quiz_id):
+    try:
+        quiz = quizzes[str(quiz_id)]
+        print(quiz)
+        return render_template("build_quiz.html", quiz = quiz, quizType = "comnames")
+    except:
+        return render_template("empty_quiz.html")
     
 if __name__ == '__main__':
    app.run(debug = True)

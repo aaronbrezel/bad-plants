@@ -1,4 +1,5 @@
 var deleteID
+var quizID
 
 $(document).ready(function () {
     
@@ -56,7 +57,22 @@ $(document).ready(function () {
     });
  
 
-
+    $("#sciNames").click(function(){      
+        var url = "/quiz/"
+        var id = quizID
+        var sciNames = "/scinames"
+        fullURL = url.concat(id,sciNames)
+        window.location.href = fullURL
+        
+    
+    })
+    $("#comNames").click(function(){
+        var url = "/quiz/"
+        var id = quizID
+        var sciNames = "/comnames"
+        fullURL = url.concat(id,sciNames)
+        window.location.href = fullURL
+    })
        
 
 
@@ -114,15 +130,20 @@ function buildQuizList(quizzesBox,quizzes){
         //HTML work on number of buttons
         var widgetButtons = $("<div class='col-4 widgetButtons'></div>")
       
-        var editButton = $('<button type="button" class="btn btn-warning btn-sm btn-block editQuiz" id="' + quiz_id + '" disabled>Edit quiz</button>')
+        var editButton = $('<button type="button" class="btn btn-warning btn-sm btn-block editQuiz" id="' + quiz_id + '">Edit quiz</button>')
         var learnButton = $('<button type="button" class="btn btn-primary btn-sm btn-block learnQuiz" id="' + quiz_id + '">Study</button>')
-        var quizButton = $('<button type="button" class="btn btn-success btn-sm btn-block takeQuiz" id="' + quiz_id + '">Take quiz</button>')
+        var quizButton = $('<a id="quizButton" data-fancybox data-src="#pickQuizType" href="javascript:;"><button type="button" class="btn btn-success btn-sm btn-block takeQuiz" id="' + quiz_id + '">Take quiz</button></a>')
         widgetButtons.append(editButton)
         widgetButtons.append(learnButton)
         widgetButtons.append(quizButton)
 
-        assignRedirect(quizButton,"quiz")
+        quizButton.click(function(){
+            var button = $(this).children()[0]
+            quizID = $(button).attr("id")
+        })
+        // assignRedirect(quizButton,"quiz")
         assignRedirect(learnButton,"learn")
+        assignRedirect(editButton, "edit")
 
         quiz_widget.append(widgetButtons)
 
@@ -138,16 +159,16 @@ function buildQuizList(quizzesBox,quizzes){
 }
 
 function assignRedirect(button,direction){
-    if(direction=="quiz"){
+    if (direction=="learn"){
         button.click(function(){
-            var url = "/quiz/"
+            var url = "/learn/"
             var id = button.attr("id")
             window.location.href = url.concat(id)
         })
     }
-    else if (direction=="learn"){
+    else if (direction=="edit"){
         button.click(function(){
-            var url = "/learn/"
+            var url = "/edit/"
             var id = button.attr("id")
             window.location.href = url.concat(id)
         })

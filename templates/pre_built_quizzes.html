@@ -50,6 +50,13 @@
             font-weight: bold;
         }
 
+        #quizButton{
+        text-decoration: none; /*Remove hyperlink underline from button*/
+        }
+        .learnQuiz {
+            margin-bottom: 8px;
+        }
+
 
     </style>
 
@@ -94,6 +101,18 @@
             </div>
     </div>       
             
+</div>
+
+<div style="display: none;" id="pickQuizType">
+        <h2>What would you like to be tested on?</h2>
+        <div class="row">
+            <div class="col-6">
+                <button type="button" class="btn btn-primary btn-sm btn-block lightBoxButtons" id="sciNames">Scientific names</button>
+            </div>
+            <div class="col-6">
+                <button type="button"  class="btn btn-success btn-sm btn-block lightBoxButtons" id="comNames">Common names</button>
+            </div>
+        </div>                
 </div>
 
 {% endblock %}

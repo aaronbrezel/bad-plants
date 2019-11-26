@@ -4,13 +4,20 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-#quizNameCol {
+#quizTitleCol {
     text-align: center;
-    font-size: 1.5rem;
 }
 
 #quizDirectionsCol{
     text-align: center;
+}
+#quizDirections {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#quizTitle {
+    font-size: 1.5rem;
 }
 
 .pictureRow {

@@ -5,15 +5,23 @@ var picturesBox
 $(document).ready(function () {
     
     quizName = quiz.quiz_name
+    $("#backToLearnCol").append('<button type="button" class="btn btn-primary btn-sm btn-block" id="learnButton">I need to study</button>')
+    $('#quizTitleCol').append('<span id="quizTitle">' + quizName + '</span><br>')
+    $("#quizTitleCol").append("<span id='quizDirections'>Drag the name to the appropriate photo.</span>")
+    $("#quizResultsCol").append('<button type="button" class="btn btn-success btn-sm btn-block" id="viewQuizResults">View Results</button>')
     
-    $('#quizNameCol').append('<span id="quizName">' + quizName + '</span>')
-    
+
     answersBox = $("#namesBox")
     picturesBox = $("#picturesBox")
 
     buildTheQuiz()
 
-    
+    $("#learnButton").click(function(){
+        var url = "/learn/"
+        var id = quiz.quiz_id.toString()
+        window.location.href = url.concat(id)
+    })
+
     $('#viewQuizResults').click(function(){
         generateResults();
     })
@@ -26,8 +34,15 @@ function buildTheQuiz(){
     var answers = shuffle(quiz.quiz_plants)
     var plants = quiz.quiz_plants
     for(i=0; i < plants.length; i++){
-        var answer = answers[i]["Scientific name"]
-        console.log(answer)
+ 
+        if(quizType == "scinames"){
+            var answer = answers[i]["Scientific name"]
+        }
+        else if(quizType == "comnames"){
+            var answer =  answers[i]["Common Name"][Math.floor(Math.random() * answers[i]["Common Name"].length)]
+        }
+       
+        
         var plant = plants[i]
         var pictureRow = $("<div class='row pictureRow'></div>");
         picturesBox.append(pictureRow);
@@ -46,7 +61,14 @@ function buildTheQuiz(){
         
         // pictureCol.append(flipCardInner);
         pictureCol.append(picture)
-        pictureCol.attr("id", plant["Scientific name"])
+        if(quizType == "scinames"){
+            pictureCol.attr("id", plant["Scientific name"])
+        }
+        else if(quizType == "comnames"){
+            var coms = plant["Common Name"].join(",")
+            pictureCol.attr("id", coms)
+        }
+        
         pictureRow.append(pictureCol);
 
         var nameRow = $("<div class='row nameRow'></div>");
@@ -197,26 +219,31 @@ function shuffle(plants) {
 
 function generateResults(){
     var answerRows = $('#picturesBox').children()
-    var allRight = true;
+    var allRight = false;
+    var rightCount = 0
     for (var i = 0; i < answerRows.length; i++){
         var answerCol = $($(answerRows[i]).children()[0])
         var imageCol = $($(answerRows[i]).children()[1])
         if( $(answerCol[0]).children().length > 0){
             var guess = $(answerCol[0]).children()[0]
             var answer = $(imageCol[0]) 
-            console.log(guess.id)
-            console.log(answer[0].id)
-            if (answer[0].id != guess.id){
-                $(guess).addClass("wrongAnswer")
-                allRight = false;
+            answer = answer[0].id
+            var answers = answer.split(",")
+            for(var j = 0; j < answers.length; j++){
+                if (answers[j] == guess.id){
+                    allRight = true;
+                    $(guess).removeClass("wrongAnswer")  
+                    rightCount++
+                }
+                else if (!allRight) {
+                    $(guess).addClass("wrongAnswer")
+                }
             }
-            else {
-                console.log("RIGHT")
-            }
+            
         }
 
     }
     if (allRight){
-        alert("Congrats, you got them all right!");
+        alert("Congrats, you got " + rightCount + " of the plants right!");
     }
 } 

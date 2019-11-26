@@ -11,6 +11,7 @@
 
 <script>
         var quiz = {{quiz|tojson}}
+        var quizType = {{quizType|tojson}}
 </script>
 
 
@@ -21,14 +22,14 @@
 <div class="row page">
     <div class="col">
         <div class="row" id="quizNameRow">
-            <div class="col" id="quizNameCol">
+            <div class="col-2" id="backToLearnCol">
+            </div>
+            <div class="col-8" id="quizTitleCol">
+            </div> 
+            <div class="col-2" id="quizResultsCol">
             </div>
         </div>   
-        <div class="row">
-            <div class="col" id="quizDirectionsCol">
-                <h2>Drag the scientific name to the appropriate photo. Good Luck.</h2>
-            </div>
-        </div>        
+        <hr>     
         <div class="row">
             <div class="col-3" id="namesBox">        
             </div>
@@ -37,11 +38,11 @@
             <div class="col-8" id="picturesBox">            
             </div>
         </div>
-        <div class="row" id="quizResultsButtonRow">
+        <!-- <div class="row" id="quizResultsButtonRow">
             <div class= "col">
                 <button type="button" class="btn btn-success btn-sm btn-block" id="viewQuizResults">View Results</button>
             </div>
-        </div>
+        </div> -->
     </div>
     
             

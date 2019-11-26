@@ -15,6 +15,8 @@ $(document).ready(function () {
 
     });
 
+   
+
     $("#keepEditing").click(function(){
         $.fancybox.close()
         // uploadNewQuiz($('#quizNameInput').val(),"NO");
@@ -39,6 +41,8 @@ $(document).ready(function () {
     plantCardDirections = $('#plantCardDirections'); //binds plant card directions to a variable
 
     dumpList(plants) //build the initial list of plants
+
+
 
 
     //JS for dealing with searches
@@ -115,26 +119,46 @@ $(document).ready(function () {
         }
     })
 
+    $("#saveQuiz").click(function(){
+        console.log(quiz.quiz_name)
+        $("#quizNameInput").val(quiz.quiz_name)
+    })
 
 
 });
+
+function addExistingQuizPlants(quiz_plants){
+    for(j=0; j < quiz_plants.length; j++){
+        for (i=0; i < plants.length; i++){
+            if (plants[i]["plant id"] == quiz_plants[j]["plant id"]){
+                plants[i].selected = true
+                addToQuiz.push(plants[i])
+            }
+        }
+    }
+    assembleQuizList(addToQuiz)
+    
+    
+}
 
 
 function uploadNewQuiz(quizName,redirect){
     var thePlants = addToQuiz
     var theQuiz = {
+        quiz_id: quiz.quiz_id,
         quizName: quizName,
         thePlants: thePlants
     }
     $.ajax({
         type: "POST",
-        url: "add_quiz",                
+        url: "/make_the_edit",                
         dataType : "json",
         contentType: "application/json; charset=utf-8",
         data : JSON.stringify(theQuiz),
         success: function(result){
             var quizData = result["data"]
             console.log("success")
+            // console.log(quizData)
             if(redirect == "preFab"){
                 window.location.href = "/pre_fabs"
             }
@@ -170,6 +194,7 @@ function matchPlants(searchText){
 
 
 function dumpList(plants){
+    addExistingQuizPlants(quiz.quiz_plants)
     for (i = 0; i < plants.length; i++){
         //console.log(plants[i])
         buildList(plants[i])
